@@ -2784,10 +2784,9 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     margin-top: -2px;
     border-top: 1px solid var(--background-tertiary);
 }
-.footer-3naVBw > .input-2z42oC, .footer-3naVBw > .input-2g-os5.focused-1AtTHC, .footer-3naVBw > .input-2g-os5:focus {
-    font-size: 14px;
-    height: 36px;
-    background-color: var(--background-primary);
+.input-2z42oC {
+    background-color: var(--background-tertiary);
+    border: 1px solid #000 /*unfinished*/;
 }
 
 /*Playing Status*/
