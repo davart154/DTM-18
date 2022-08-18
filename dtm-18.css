@@ -1178,7 +1178,8 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 }
 
 /*Dm Status*/
-.mask-2Me5HY {
+.status-12NUUC {
+    margin-right: 2px;
     margin-left: 2px;
 }
 
@@ -1191,7 +1192,7 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 .divider-q3P9HC {
     width: 1px;
     height: 21px;
-    margin-left: 6px;
+    margin: 0 6px;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
@@ -1223,6 +1224,11 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 }
 .base-3IDx3L:is(.akaBadge-3i7V3p) {
     min-height: 15px; 
+}
+
+/*Description*/
+.topic-11NuQZ {
+    margin: 0 0 0 4px;
 }
 
 /*Icon SVGs*/
