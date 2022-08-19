@@ -2537,9 +2537,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
 }
-.botTagVerified-2KCPMa {
-    display: none;
-}
 .botTag-7aX5WZ {
     font-size: 10px;
     display: -webkit-inline-box;
