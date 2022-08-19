@@ -32,14 +32,24 @@
 }
 
 /*Tooltip*/
-#app-mount .tooltip-14MtrL {
+.theme-dark .tooltip-14MtrL.tooltipBlack-vMYxvw, .theme-light .tooltip-14MtrL.tooltipBlack-vMYxvw, .theme-dark .tooltip-14MtrL.tooltipPrimary-3qLMbS, .theme-light .tooltip-14MtrL.tooltipPrimary-3qLMbS, .theme-dark .tooltip-14MtrL.tooltipGrey-lpLZjh, .theme-light .tooltip-14MtrL.tooltipGrey-lpLZjh {
     background: #000;
-    color: #fff !important;
+    color: #fff;
     font-size: 14px;
     font-weight: 500;
 }
-#app-mount .tooltipPointer-3L49xb {
-    border-top-color: #000;
+.theme-dark .tooltip-14MtrL.tooltipBlack-vMYxvw .activityIcon-E-aeJm, .theme-light .tooltip-14MtrL.tooltipBlack-vMYxvw .activityIcon-E-aeJm, .theme-dark .tooltip-14MtrL.tooltipPrimary-3qLMbS .activityIcon-E-aeJm, .theme-light .tooltip-14MtrL.tooltipPrimary-3qLMbS .activityIcon-E-aeJm, .theme-dark .tooltip-14MtrL.tooltipGrey-lpLZjh .activityIcon-E-aeJm, .theme-light .tooltip-14MtrL.tooltipGrey-lpLZjh .activityIcon-E-aeJm {
+    color: #fff;
+}
+.theme-dark .tooltip-14MtrL.tooltipBlack-vMYxvw .tooltipPointer-3L49xb, .theme-light .tooltip-14MtrL.tooltipBlack-vMYxvw .tooltipPointer-3L49xb, .theme-dark .tooltip-14MtrL.tooltipPrimary-3qLMbS .tooltipPointer-3L49xb, .theme-light .tooltip-14MtrL.tooltipPrimary-3qLMbS .tooltipPointer-3L49xb, .theme-dark .tooltip-14MtrL.tooltipGrey-lpLZjh .tooltipPointer-3L49xb, .theme-light .tooltip-14MtrL.tooltipGrey-lpLZjh .tooltipPointer-3L49xb {
+    border-top-color: #000 !important;
+}
+.theme-dark .tooltip-14MtrL.tooltipBlack-vMYxvw .clickCTA-1bk0UN, .theme-light .tooltip-14MtrL.tooltipBlack-vMYxvw .clickCTA-1bk0UN, .theme-dark .tooltip-14MtrL.tooltipPrimary-3qLMbS .clickCTA-1bk0UN, .theme-light .tooltip-14MtrL.tooltipPrimary-3qLMbS .clickCTA-1bk0UN, .theme-dark .tooltip-14MtrL.tooltipGrey-lpLZjh .clickCTA-1bk0UN, .theme-light .tooltip-14MtrL.tooltipGrey-lpLZjh .clickCTA-1bk0UN {
+    color: #fffb;
+}
+.tooltip-14MtrL .discriminator-3-qTC0 {
+  color: #fffb;
+  font-weight: 500;
 }
 
 /*Indicators*/
@@ -1835,44 +1845,15 @@ main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="wrapper"]
   border-bottom: thin solid var(--background-modifier-accent);
 }
 
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="wrapper"][class*="cozy"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]) > div[class*="contents"] > div[class*="markup"]:last-child {
+main[class^="chatContent"] > div.message-2CShn3.wrapper-30-Nkg div.wrapper-30-Nkg.cozy-VmLDNB:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]) > div[class*="contents"] > div[class*="markup"]:last-child {
     padding: 8px 0;
     padding-left: 80px;
     margin-left: -80px;
 }
 
 /* Blocked */
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="groupStart"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]):not([class*="wrapper"]) {
-    position: relative;
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="groupStart"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]):not([class*="wrapper"]) div[class^="blockedSystemMessage"] {
-    padding: 0;
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="groupStart"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]):not([class*="wrapper"]) div[class^="blockedSystemMessage"] > div[class^="content"] {
-    font-size: 14px;
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="groupStart"][class*="expanded"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]):not([class*="wrapper"]) {
+[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="groupStart"][class*="expanded"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]):not([class*="wrapper"]) {
     background-color: transparent;
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="groupStart"][class*="expanded"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]):not([class*="wrapper"])::before {
-    content: "";
-    position: absolute;
-    top: calc(-1 * var(--f-msg-spacing) / 2);
-    height: calc(100% + var(--f-msg-spacing));
-    width: 100%;
-    background-color: var(--background-message-hover);
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class*="divider"] + div[class^="groupStart"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]):not([class*="wrapper"]) {
-    margin-top: 0;
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class*="divider"] + div[class^="groupStart"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]):not([class*="wrapper"])::after {
-    display: none;
 }
 
 /*System Messages*/
@@ -1913,9 +1894,10 @@ main[class^="chatContent"] > div[class*="messagesWrapper"] div[class*="divider"]
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--background-secondary);
-    border: 1px solid var(--background-secondary-alt);
+    background: var(--background-message-hover);
+    border: 1px solid var(--background-secondary);
     border-radius: 3px;
+    --background-message-hover: #32353B;
 }
 .blockedSystemMessage-3FmE9n {
     margin-left: -60px;
@@ -1948,7 +1930,7 @@ main[class^="chatContent"] > div[class*="messagesWrapper"] div[class*="divider"]
     box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
 }
 .blockedSystemMessage-3FmE9n:hover .blockedAction-2cPk2G {
-    background: var(--background-secondary-alt);
+    background: var(--background-secondary);
     z-index: -1;
 }
 
@@ -2633,9 +2615,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     background: none;
     border: 0px;
 }
-.avatarHoverTarget-1zzfRL:hover {
-    display: none;
-}
 
 /*header*/
 .headerTop-3GPUSF {
@@ -2727,16 +2706,30 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .eyebrow-Ejf06y {
     padding: 0 10px;
 }
-.eyebrow-Ejf06y:not(.userInfoTitle-39qq0Y) {
+.eyebrow-Ejf06y {
     padding-top: 10px;
 }
 /*bot add to server button*/
 .applicationInstallButton-taCWKH {
-    width: 230px;
-    left: 10px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    min-height: unset;
+    margin: 0;
+    padding: 0;
     align-items: center;
-    background: none !important;
-    border: 1px solid var(--header-primary);
+    color: var(--text-link) !important;
+    background: var(--background-tertiary) !important;
+    border-radius: 0;
+    pointer-events: none;
+}
+.applicationInstallButton-taCWKH:hover {
+    text-decoration: underline;
+}
+.applicationInstallButtonContent-1p8XfV {
+    pointer-events: all;
 }
 /*about me*/
 .divider-1wtgZ3 {
@@ -2787,7 +2780,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 }
 .input-2z42oC {
     background-color: var(--background-tertiary);
-    border: 1px solid #000 /*unfinished*/;
+    border: 1px solid var(--background-floating) /*unfinished*/;
 }
 
 /*Playing Status*/
