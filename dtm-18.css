@@ -1807,6 +1807,12 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     display: none;
 }
 
+/*Editing Message*/
+.operations-3q3u6E {
+    text-align: right;
+    --text-link: var(--brand-experiment);
+}
+
 /* Uploading */
 main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="wrapper"][class*="cozy"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]) {
   padding: 0;
