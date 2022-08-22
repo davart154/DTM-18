@@ -213,7 +213,7 @@ svg.artwork-L5TAwQ {
     top: 40px;
 }
 .appMount-2yBXZl, body {
-    background: url('https://discordapp.com/assets/fd91131ea693096d6be5e8aa99d18f9e.jpg');
+    background: url('https://cdn.discordapp.com/attachments/1011374138121789470/1011374242471878736/login.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1600,7 +1600,7 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 }
 .container-1yy5xN {
     min-height: 95px;
-    background: url(https://discordapp.com/assets/5eed3f20bc3c75fd5ff63c60df8f679d.png),url(https://discordapp.com/assets/129bf63f677720a34bc7ffeb74468a0e.png);
+    background: url(https://cdn.discordapp.com/attachments/1011371685980684308/1011374467466928208/Chat_Header_1.png),url(https://cdn.discordapp.com/attachments/1011371685980684308/1011374495375818852/Chat_Header_2.png);
     background-position: 0 100%,100% 100%;
     background-repeat: no-repeat,no-repeat;
     background-size: 192px 80px,216px 64px;
@@ -1608,7 +1608,7 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
     padding-bottom: 14px;
 }
 .theme-light .container-1yy5xN {
-    background: url(https://discordapp.com/assets/012426a1f0780d7d36be6c39d9c1e6ed.png),url(https://discordapp.com/assets/6bf0150b5ab7622ea15150094e3c4850.png);
+    background: url(https://cdn.discordapp.com/attachments/1011371707136749682/1011374624333889576/Chat_Header_1.png),url(https://cdn.discordapp.com/attachments/1011371707136749682/1011374646156853358/Chat_Header_2.png);
     background-position: 0 100%,100% 100%;
     background-repeat: no-repeat,no-repeat;
     background-size: 192px 80px,216px 64px;
@@ -1617,19 +1617,19 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 
 /*Default pfp*/
 img[src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"] {
-    content: url("https://web.archive.org/web/20191216084351if_/https://cdn.discordapp.com/embed/avatars/0.png");
+    content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374345576267827/Avatar0.png");
 }
 img[src="/assets/c09a43a372ba81e3018c3151d4ed4773.png"] {
-    content: url("https://web.archive.org/web/20180915094434if_/https://cdn.discordapp.com/embed/avatars/1.png");
+    content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374365205602324/Avatar1.png");
 }
 img[src="/assets/7c8f476123d28d103efe381543274c25.png"] {
-    content: url("https://web.archive.org/web/20180915094444if_/https://cdn.discordapp.com/embed/avatars/2.png")
+    content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374384390340638/Avatar2.png")
 }
 img[src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
-    content: url("https://web.archive.org/web/20180915094430if_/https://cdn.discordapp.com/embed/avatars/3.png")
+    content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374402589425754/Avatar3.png")
 }
 img[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
-    content: url("https://web.archive.org/web/20180915094426if_/https://cdn.discordapp.com/embed/avatars/4.png")
+    content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374423401574530/Avatar4.png")
 }
 
 /*Regular Text Channel*/
@@ -1818,50 +1818,6 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     --text-link: var(--brand-experiment);
 }
 
-/* Uploading */
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="wrapper"][class*="cozy"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]) {
-  padding: 0;
-  padding-left: 80px;
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="wrapper"][class*="cozy"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]) > div[class*="contents"] > img {
-  pointer-events: none;
-  margin-left: 4px;
-  margin-right: 20px;
-  filter: none!important;
-  transform: none!important;
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="wrapper"][class*="cozy"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]) > div[class*="contents"] > h2[class*="header"] > [class*="username"] {
-  margin-right: .3rem;
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="wrapper"][class*="cozy"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]) > div[class*="contents"] > h2[class*="header"] > span[class*="timestamp"] {
-  margin-left: 0;
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="wrapper"][class*="cozy"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]) > div[class*="contents"] > h2[class*="header"] {
-  overflow: visible;
-  position: initial;
-  margin-top: var(--f-msg-spacing);
-}
-
-main[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="wrapper"][class*="cozy"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]) > div[class*="contents"] > h2[class*="header"]::before {
-  content: "";
-  position: absolute;
-  display: block;
-  left: 20px;
-  right: 20px;
-  top: calc(-1 * var(--f-msg-spacing) / 2);
-  border-bottom: thin solid var(--background-modifier-accent);
-}
-
-main[class^="chatContent"] > div.message-2CShn3.wrapper-30-Nkg div.wrapper-30-Nkg.cozy-VmLDNB:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]) > div[class*="contents"] > div[class*="markup"]:last-child {
-    padding: 8px 0;
-    padding-left: 80px;
-    margin-left: -80px;
-}
-
 /* Blocked */
 [class^="chatContent"] > div[class*="messagesWrapper"] div[class^="groupStart"][class*="expanded"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]):not([class*="wrapper"]) {
     background-color: transparent;
@@ -1944,6 +1900,8 @@ main[class^="chatContent"] > div.message-2CShn3.wrapper-30-Nkg div.wrapper-30-Nk
     background: var(--background-secondary);
     z-index: -1;
 }
+/*Expanded*/
+
 
 /*End of Message Margin*/
 main[class^="chatContent"] div[class*="messagesWrapper"] div[class*="scroller"] > div[class*="scrollerSpacer"] {
@@ -2304,7 +2262,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     opacity: 1;
 }
 .sprite-2lxwfc {
-    background-image: url(https://discordapp.com/assets/4e51af83c4879cf313ad553bdc20dcf7.png)
+    background-image: url(https://cdn.discordapp.com/attachments/1011374138121789470/1011374323266769017/emote.png)
 }
 
 /*Alternate Bottom Layout for Read Only Channels*/
@@ -2312,7 +2270,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     display: none;
 }
 .wrapper-2SplAX {
-    background-image: url(/assets/e78d08ee484c06a9eed33e095ecfedc0.png),url(/assets/c379ee3964cb272ae18fd593ed273269.png);
+    background-image: url(https://cdn.discordapp.com/attachments/1011371685980684308/1011374522487816292/Chat_Footer_1.png),url(https://cdn.discordapp.com/attachments/1011371685980684308/1011374544684068994/Chat_Footer_2.png);
     background-position: 0 100%,100% 100%;
     background-repeat: no-repeat,no-repeat;
     background-size: 187px 39px;
@@ -2324,7 +2282,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     padding: 0;
 }
 .theme-light .wrapper-2SplAX {
-    background-image: url(/assets/1aa863b412b83485563c18ce187dfb97.png),url(/assets/2606bab3552a38c536274dc63803d74a.png);
+    background-image: url(https://cdn.discordapp.com/attachments/1011371707136749682/1011374664037191710/Chat_Footer_1.png),url(https://cdn.discordapp.com/attachments/1011371707136749682/1011374682882199653/Chat_Footer_2.png);
 }
 .title-Do_30w {
     color: hsla(0,0%,100%,.3);
