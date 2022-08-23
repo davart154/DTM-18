@@ -1889,7 +1889,7 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     bottom: 0;
     color: rgba(0,0,0,0%) !important;
 }
-/*Closed Hover*/
+/*Hover*/
 .blockedSystemMessage-3FmE9n:hover {
     box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
 }
@@ -1905,8 +1905,6 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     border-bottom: 0;
     border-radius: 3px 3px 0 0;
     margin-left: -80px;
-    padding-bottom: 5px;
-    margin-bottom: -10px;
 }
 .groupStart-3Mlgv1.expanded-3lghlw .groupStart-3Mlgv1:after {
     border-bottom: 0;
@@ -1922,7 +1920,7 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     padding-top: var(--f-msg-spacing) !important;
 }
 .groupStart-3Mlgv1.expanded-3lghlw .wrapper-30-Nkg {
-    padding: 10px 6px 10px 80px !important;
+    padding: 0px 6px 0 80px !important;
     margin-left: 20px;
     margin-right: 4px;
 }
