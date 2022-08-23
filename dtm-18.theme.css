@@ -1758,6 +1758,7 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     color: var(--brand-experiment);
     background: var(--brand-experiment-10a);
     padding: 1px 2px;
+    transition: .1s ease;
 }
 .mention.wrapper-1ZcZW-:not(.iconMentionText-1_WCtN):hover {
     color: #fff;
@@ -1818,11 +1819,6 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     --text-link: var(--brand-experiment);
 }
 
-/* Blocked */
-[class^="chatContent"] > div[class*="messagesWrapper"] div[class^="groupStart"][class*="expanded"]:not([class*="message"]):not([class*="system"]):not([class*="backgroundFlash"]):not([class*="wrapper"]) {
-    background-color: transparent;
-}
-
 /*System Messages*/
 .systemMessage-1H1Z20 {
     padding: 0 10px 0 48px !important;
@@ -1868,6 +1864,7 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
 }
 .blockedSystemMessage-3FmE9n {
     margin-left: -60px;
+    margin-right: -6px;
 }
 .blockedSystemMessage-3FmE9n .content-vSHmMD {
     font-size: 12px !important;
@@ -1901,7 +1898,34 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     z-index: -1;
 }
 /*Expanded*/
-
+.groupStart-3Mlgv1.expanded-3lghlw {
+    background: none;
+}
+.groupStart-3Mlgv1.expanded-3lghlw .blockedSystemMessage-3FmE9n {
+    border-bottom: 0;
+    border-radius: 3px 3px 0 0;
+    margin-left: -80px;
+    padding-bottom: 5px;
+    margin-bottom: -10px;
+}
+.groupStart-3Mlgv1.expanded-3lghlw .groupStart-3Mlgv1:after {
+    border-bottom: 0;
+}
+.groupStart-3Mlgv1.expanded-3lghlw .groupStart-3Mlgv1 {
+    border: 1px solid var(--background-secondary);
+    border-top: 0;
+    border-radius: 0 0 3px 3px;
+}
+.groupStart-3Mlgv1.expanded-3lghlw .message-2CShn3 {
+    background: var(--background-message-hover) !important;
+    margin-top: 0 !important;
+    padding-top: var(--f-msg-spacing) !important;
+}
+.groupStart-3Mlgv1.expanded-3lghlw .wrapper-30-Nkg {
+    padding: 10px 6px 10px 80px !important;
+    margin-left: 20px;
+    margin-right: 4px;
+}
 
 /*End of Message Margin*/
 main[class^="chatContent"] div[class*="messagesWrapper"] div[class*="scroller"] > div[class*="scrollerSpacer"] {
