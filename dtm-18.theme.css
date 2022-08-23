@@ -1664,11 +1664,12 @@ img[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
 }
 
 /* Message group border */
-[class*="group-spacing"] div.groupStart-3Mlgv1 {
+div.groupStart-3Mlgv1 {
     margin-top: var(--f-msg-spacing) !important;
 }
 
-[class*="group-spacing"] .groupStart-3Mlgv1:after {
+.groupStart-3Mlgv1:before,
+.systemMessage-1H1Z20.groupStart-3Mlgv1:before {
     content: "";
     position: absolute;
     top: calc(-1 * var(--f-msg-spacing) / 2);
@@ -1676,7 +1677,7 @@ img[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
     right: 4px;
     border-bottom: thin solid hsla(0,0%,100%,.04);
 }
-.theme-light .groupStart-3Mlgv1:after {
+.theme-light .groupStart-3Mlgv1:before {
     border-bottom: thin solid #eceeef;
 }
 
@@ -1843,6 +1844,13 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
   background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/977294100787236985/join.svg?) !important;
 }
 
+/*Thread Message*/
+.cozy-VmLDNB.hasThread-3h-KJV.isSystemMessage-QNv9ZH:after {
+    left: 26px;
+    width: 12px;
+    border-bottom: 2px solid var(--interactive-muted);
+}
+
 /*Blocked Messages*/
 /*Closed*/
 @font-face {
@@ -1860,7 +1868,6 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     background: var(--background-message-hover);
     border: 1px solid var(--background-secondary);
     border-radius: 3px;
-    --background-message-hover: #32353B;
 }
 .blockedSystemMessage-3FmE9n {
     margin-left: -60px;
@@ -1897,32 +1904,36 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     background: var(--background-secondary);
     z-index: -1;
 }
+.groupStart-3Mlgv1.expanded-3lghlw .blockedSystemMessage-3FmE9n:hover {
+    background: var(--background-secondary);
+    box-shadow: none;
+}
 /*Expanded*/
 .groupStart-3Mlgv1.expanded-3lghlw {
-    background: none;
-}
-.groupStart-3Mlgv1.expanded-3lghlw .blockedSystemMessage-3FmE9n {
-    border-bottom: 0;
-    border-radius: 3px 3px 0 0;
-    margin-left: -80px;
-}
-.groupStart-3Mlgv1.expanded-3lghlw .groupStart-3Mlgv1:after {
-    border-bottom: 0;
-}
-.groupStart-3Mlgv1.expanded-3lghlw .groupStart-3Mlgv1 {
+    background: var(--background-message-hover);
     border: 1px solid var(--background-secondary);
-    border-top: 0;
-    border-radius: 0 0 3px 3px;
-}
-.groupStart-3Mlgv1.expanded-3lghlw .message-2CShn3 {
-    background: var(--background-message-hover) !important;
-    margin-top: 0 !important;
-    padding-top: var(--f-msg-spacing) !important;
-}
-.groupStart-3Mlgv1.expanded-3lghlw .wrapper-30-Nkg {
-    padding: 0px 6px 0 80px !important;
+    border-radius: 3px;
     margin-left: 20px;
     margin-right: 4px;
+}
+.groupStart-3Mlgv1.expanded-3lghlw:hover {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
+}
+.groupStart-3Mlgv1.expanded-3lghlw .blockedSystemMessage-3FmE9n {
+    background: none;
+    border: 0;
+    border-radius: 3px 3px 0 0;
+    margin-left: -80px;
+    margin-right: -10px;
+}
+.groupStart-3Mlgv1.expanded-3lghlw .groupStart-3Mlgv1:before {
+    border-bottom: 0;
+}
+.groupStart-3Mlgv1.expanded-3lghlw .groupStart-3Mlgv1.message-2CShn3 {
+    margin-top: 20px !important;
+}
+.groupStart-3Mlgv1.expanded-3lghlw .messageListItem-ZZ7v6g:last-child {
+    padding-bottom: 20px;
 }
 
 /*End of Message Margin*/
