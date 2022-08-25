@@ -1451,7 +1451,7 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
     d: path('M8.25 13.5h1.5V12h-1.5v1.5zM9 1.5C4.86 1.5 1.5 4.86 1.5 9c0 4.14 3.36 7.5 7.5 7.5 4.14 0 7.5-3.36 7.5-7.5 0-4.14-3.36-7.5-7.5-7.5zM9 15c-3.3075 0-6-2.6925-6-6s2.6925-6 6-6 6 2.6925 6 6-2.6925 6-6 6zM9 4.5c-1.6575 0-3 1.3425-3 3h1.5C7.5 6.675 8.175 6 9 6s1.5.675 1.5 1.5c0 1.5-2.25 1.3125-2.25 3.75h1.5C9.75 9.5625 12 9.375 12 7.5c0-1.6575-1.3425-3-3-3z');
     transform: scale(133%);
 }
-[d='M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z'] {
+.container-2McqkF [d='M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z'] {
     display: none;
 }
 .container-2McqkF [d='M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z'] {
@@ -1858,9 +1858,11 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
   src: url("https://raw.githack.com/adobe-fonts/adobe-blank/master/AdobeBlank.ttf.woff");
   unicode-range: U+2014;
 }
+/*Icon*/
 .blockedSystemMessage-3FmE9n .iconContainer-2rPbqG {
     display: none;
 }
+/*Button Layout*/
 .blockedSystemMessage-3FmE9n {
     display: flex;
     justify-content: center;
@@ -1879,12 +1881,14 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     padding: 1px 0;
     text-transform: uppercase;
 }
+/*Text*/
 .blockedMessageText-3Zeg3y {
     cursor: pointer;
     pointer-events: none;
     font-family: Blank, var(--font-primary);
-    z-index: 0;
     color: var(--header-secondary);
+    margin-right: -2.64px;
+    z-index: 0;
 }
 .blockedAction-2cPk2G {
     pointer-events: all;
@@ -1895,20 +1899,28 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
     left: 0;
     bottom: 0;
     color: rgba(0,0,0,0%) !important;
+    z-index: -1;
 }
-/*Hover*/
+/*Button Hover*/
 .blockedSystemMessage-3FmE9n:hover {
     box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
 }
 .blockedSystemMessage-3FmE9n:hover .blockedAction-2cPk2G {
     background: var(--background-secondary);
-    z-index: -1;
+}
+/*Expanded Layout Button*/
+.groupStart-3Mlgv1.expanded-3lghlw .blockedSystemMessage-3FmE9n {
+    background: none;
+    border: 0;
+    border-radius: 3px 3px 0 0;
+    margin-left: -80px;
+    margin-right: -10px;
 }
 .groupStart-3Mlgv1.expanded-3lghlw .blockedSystemMessage-3FmE9n:hover {
     background: var(--background-secondary);
     box-shadow: none;
 }
-/*Expanded*/
+/*Expanded Layout*/
 .groupStart-3Mlgv1.expanded-3lghlw {
     background: var(--background-message-hover);
     border: 1px solid var(--background-secondary);
@@ -1919,21 +1931,16 @@ div[class*="divider-"] + div[class*="backgroundFlash"] > div[class*="groupStart"
 .groupStart-3Mlgv1.expanded-3lghlw:hover {
     box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
 }
-.groupStart-3Mlgv1.expanded-3lghlw .blockedSystemMessage-3FmE9n {
-    background: none;
-    border: 0;
-    border-radius: 3px 3px 0 0;
-    margin-left: -80px;
-    margin-right: -10px;
-}
-.groupStart-3Mlgv1.expanded-3lghlw .groupStart-3Mlgv1:before {
+.groupStart-3Mlgv1.expanded-3lghlw .wrapper-30-Nkg + .messageListItem-ZZ7v6g .groupStart-3Mlgv1:before {
     border-bottom: 0;
 }
-.groupStart-3Mlgv1.expanded-3lghlw .groupStart-3Mlgv1.message-2CShn3 {
-    margin-top: 20px !important;
+.groupStart-3Mlgv1.expanded-3lghlw .messageListItem-ZZ7v6g:last-of-type {
+    margin-bottom: var(--f-msg-spacing);
 }
-.groupStart-3Mlgv1.expanded-3lghlw .messageListItem-ZZ7v6g:last-child {
-    padding-bottom: 20px;
+/*Remove Divider on Following Message*/
+.groupStart-3Mlgv1 + .messageListItem-ZZ7v6g .groupStart-3Mlgv1:before,
+.groupStart-3Mlgv1.expanded-3lghlw + .messageListItem-ZZ7v6g .groupStart-3Mlgv1:before {
+    border-bottom: 0;
 }
 
 /*End of Message Margin*/
