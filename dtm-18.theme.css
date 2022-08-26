@@ -2716,6 +2716,9 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     padding-top: 10px;
 }
 /*bot add to server button*/
+.buttonsContainer-2Fl9uf {
+    margin: 0;
+}
 .applicationInstallButton-taCWKH {
     display: flex;
     position: relative;
@@ -2746,8 +2749,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     padding-bottom: 10px;
     margin-bottom: 0;
 }
-.aboutMeSection-PUghFQ,
-.clamped-2ZePhX {
+.userInfoSection-3her-v .userInfoBody-1zgAd0 {
     padding: 0 10px;
 }
 
