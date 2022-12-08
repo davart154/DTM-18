@@ -7,11 +7,96 @@
 * @source https://github.com/davart154/DTM-18/blob/main/dtm-18.css
 */
 
-/*Misc*/
-/*Imports*/
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
-
-/*Original Italic Font*/
+/*Font Type*/
+@font-face {
+  font-family: Whitney;
+  font-weight: 300;
+  src: url(/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff) format("woff");
+}
+@font-face {
+  font-family: Whitney;
+  font-weight: 400;
+  src: url(/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff) format("woff");
+}
+@font-face {
+  font-family: Whitney;
+  font-weight: 500;
+  src: url(/assets/3bdef1251a424500c1b3a78dea9b7e57.woff) format("woff");
+}
+@font-face {
+  font-family: Whitney;
+  font-weight: 600;
+  src: url(/assets/be0060dafb7a0e31d2a1ca17c0708636.woff) format("woff");
+}
+@font-face {
+  font-family: Whitney;
+  font-weight: 700;
+  src: url(/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff) format("woff");
+}
+@font-face {
+    font-family: ABC Ginto Normal;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/127465eff7b4a91feb3f8ac7f3cb2bde.woff2) format("woff2");
+}
+@font-face {
+    font-family: ABC Ginto Normal;
+    font-style: italic;
+    font-weight: 400;
+    src: url(/assets/36675ada27ae82c88b9a6b796f127c59.woff2) format("woff2");
+}
+@font-face {
+    font-family: ABC Ginto Normal;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/assets/5b558dbb0bb5347a9883248ec2f48be3.woff2) format("woff2");
+}
+@font-face {
+    font-family: ABC Ginto Normal;
+    font-style: italic;
+    font-weight: 500;
+    src: url(/assets/b3625a8ecf272987eff367aaee1d74dc.woff2) format("woff2");
+}
+@font-face {
+    font-family: ABC Ginto Normal;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/assets/22c37159391fd87080c4915b5b1f5a3d.woff2) format("woff2");
+}
+@font-face {
+    font-family: ABC Ginto Normal;
+    font-style: italic;
+    font-weight: 700;
+    src: url(/assets/795347423b789cbdbcd959303849669a.woff2) format("woff2");
+}
+:root, ::-webkit-input-placeholder, body, button, input, select, textarea {
+    --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-display: var(--font-primary);
+}
+:lang(ko) {
+    --font-primary: Whitney,"Apple SD Gothic Neo",NanumBarunGothic,"\B9D1\C740 \ACE0\B515","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+:lang(ja) {
+    --font-primary: Whitney,"Hiragino Sans","\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3","Hiragino Kaku Gothic ProN",メイリオ,Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+:lang(zh-CN) {
+    --font-primary: Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+:lang(zh-TW) {
+    --font-primary: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+@font-face {
+  font-family: SourceCodePro;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/375f5d0b0a54b53b92c351d7475eb152.woff) format("woff");
+}
+@font-face {
+  font-family: SourceCodePro;
+  font-style: normal;
+  font-weight: 600;
+  src: url(/assets/c383b1af097688e4ef1637838c2befe1.woff) format("woff");
+}
 @font-face {
     font-family: 'Old Italics';
     font-style: normal;
@@ -799,21 +884,33 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 .content-1gYQeQ [d="M22.545 4.91992V3.91992C22.545 2.79992 21.57 1.91992 20.52 1.91992C19.47 1.91992 18.52 2.79992 18.52 3.91992V4.91992H17.76C17.6275 4.91992 17.52 5.02737 17.52 5.15992V9.67992C17.52 9.81247 17.6275 9.91992 17.76 9.91992H23.28C23.4126 9.91992 23.52 9.81247 23.52 9.67992V5.15992C23.52 5.02737 23.4126 4.91992 23.28 4.91992H22.545ZM21.52 4.91992H19.52V3.91992C19.52 3.34849 19.9867 2.91992 20.52 2.91992C21.0533 2.91992 21.52 3.34849 21.52 3.91992V4.91992Z"],
 .content-1gYQeQ [d="M22.545 4.87988V5.87988H23.28C23.4126 5.87988 23.52 5.98733 23.52 6.11988V10.6399C23.52 10.7724 23.4126 10.8799 23.28 10.8799H17.76C17.6275 10.8799 17.52 10.7724 17.52 10.6399V6.11988C17.52 5.98733 17.6275 5.87988 17.76 5.87988H18.52V4.87988C18.52 3.75988 19.47 2.87988 20.52 2.87988C21.57 2.87988 22.545 3.75988 22.545 4.87988ZM19.52 5.87988H21.52V4.87988C21.52 4.30845 21.0534 3.87988 20.52 3.87988C19.9867 3.87988 19.52 4.30845 19.52 4.87988V5.87988Z"],
 .content-1gYQeQ [d="M22.545 4.88V5.88H23.28C23.4126 5.88 23.52 5.98746 23.52 6.12001V10.64C23.52 10.7726 23.4126 10.88 23.28 10.88H17.76C17.6275 10.88 17.52 10.7726 17.52 10.64V6.12C17.52 5.98746 17.6275 5.88 17.76 5.88H18.52V4.88C18.52 3.76 19.47 2.88 20.52 2.88C21.57 2.88 22.545 3.76 22.545 4.88ZM19.52 5.88H21.52V4.88C21.52 4.30858 21.0534 3.88 20.52 3.88C19.9867 3.88 19.52 4.30858 19.52 4.88V5.88Z"],
-.content-1gYQeQ [d="M22.025 2V3C22.5635 3 23 3.43652 23 3.975V7C23 7.55228 22.5523 8 22 8H18C17.4477 8 17 7.55228 17 7V4C17 3.44772 17.4477 3 18 3V2C18 0.88 18.95 0 20 0C21.05 0 22.025 0.88 22.025 2ZM19 3H21V2C21 1.42857 20.5333 1 20 1C19.4667 1 19 1.42857 19 2V3Z"] {
+.content-1gYQeQ [d="M22.025 2V3C22.5635 3 23 3.43652 23 3.975V7C23 7.55228 22.5523 8 22 8H18C17.4477 8 17 7.55228 17 7V4C17 3.44772 17.4477 3 18 3V2C18 0.88 18.95 0 20 0C21.05 0 22.025 0.88 22.025 2ZM19 3H21V2C21 1.42857 20.5333 1 20 1C19.4667 1 19 1.42857 19 2V3Z"],
+.content-1gYQeQ [d="M21.025 4V5C21.5635 5 22 5.43652 22 5.975V9C22 9.55228 21.5523 10 21 10H17C16.4477 10 16 9.55228 16 9V6C16 5.44772 16.4477 5 17 5V4C17 2.88 17.95 2 19 2C20.05 2 21.025 2.88 21.025 4ZM18 5H20V4C20 3.42857 19.5333 3 19 3C18.4667 3 18 3.42857 18 4V5Z"] {
     d: path("M22.65 4.8 22.65 3C22.65 1.32 21.075 0 19.5 0 17.925 0 16.35 1.32 16.35 3L16.35 4.8C15.675 4.8 15 5.52 15 6.24L15 10.44C15 11.28 15.675 12 16.35 12L22.5375 12C23.325 12 24 11.28 24 10.56L24 6.36C24 5.52 23.325 4.8 22.65 4.8ZM21 4.5 18 4.5 18 2.8929C18 2.0357 18.7 1.5 19.5 1.5 20.3 1.5 21 2.0357 21 2.8929L21 4.5Z");
+    opacity: 0.4 !important;
+}
+/*Mini Age Restricted Icon*/
+.content-1gYQeQ [d="M19.8914 3.80204L22.2438 8.55654C22.5726 9.22119 22.0891 9.99999 21.3475 10L16.6179 10C15.8745 10 15.391 9.21769 15.7235 8.55279L18.1007 3.79829C18.4701 3.05951 19.5251 3.06172 19.8914 3.80204ZM18.4998 5H19.4999V7.5H18.4999L18.4998 5ZM18.4998 8.49887C18.4998 8.77589 18.7238 9 18.9998 9C19.2759 9 19.4999 8.77589 19.4999 8.49887C19.4999 8.22224 19.2759 7.99773 18.9998 7.99773C18.7238 7.99773 18.4998 8.22224 18.4998 8.49887Z"],
+.content-1gYQeQ [d="M22.8093 8.55658L20.4681 3.80208C20.1036 3.06176 19.0536 3.05954 18.686 3.79833L16.3201 8.55283C15.9893 9.21773 16.4705 10 17.2103 10L21.9173 10C22.6553 10 23.1365 9.22122 22.8093 8.55658ZM20.0785 5.00004H19.0832L19.0833 7.50004H20.0785V5.00004ZM19.5808 9.00004C19.3061 9.00004 19.0832 8.77593 19.0832 8.49891C19.0832 8.22228 19.3061 7.99777 19.5808 7.99777C19.8555 7.99777 20.0785 8.22228 20.0785 8.49891C20.0785 8.77593 19.8555 9.00004 19.5808 9.00004Z"],
+.content-1gYQeQ [d="M19.8916 3.80204L22.2439 8.55654C22.5728 9.22119 22.0892 9.99999 21.3476 10L16.618 10C15.8746 10 15.3912 9.21769 15.7236 8.55279L18.1008 3.79829C18.4702 3.05951 19.5253 3.06172 19.8916 3.80204ZM18.4999 5H19.5V7.5H18.5L18.4999 5ZM18.4999 8.49887C18.4999 8.77589 18.724 9 19 9C19.276 9 19.5 8.77589 19.5 8.49887C19.5 8.22224 19.276 7.99773 19 7.99773C18.724 7.99773 18.4999 8.22224 18.4999 8.49887Z"],
+.content-1gYQeQ [d="M20.4683 4.76211L22.8094 9.51661C23.1366 10.1813 22.6554 10.9601 21.9174 10.9601L17.2104 10.9601C16.4706 10.9601 15.9894 10.1778 16.3203 9.51286L18.6861 4.75836C19.0537 4.01957 20.1037 4.02179 20.4683 4.76211ZM19.0833 5.96007H20.0786V8.46007H19.0834L19.0833 5.96007ZM19.0833 9.45894C19.0833 9.73596 19.3063 9.96007 19.5809 9.96007C19.8556 9.96007 20.0786 9.73596 20.0786 9.45894C20.0786 9.18231 19.8556 8.9578 19.5809 8.9578C19.3063 8.9578 19.0833 9.18231 19.0833 9.45894Z"],
+.content-1gYQeQ [d="M20.4681 4.76205L22.8092 9.51655C23.1365 10.1812 22.6552 10.96 21.9172 10.96L17.2103 10.96C16.4705 10.96 15.9893 10.1777 16.3201 9.5128L18.686 4.75829C19.0536 4.01951 20.1036 4.02173 20.4681 4.76205ZM19.0832 5.96001H20.0785V8.46001H19.0832L19.0832 5.96001ZM19.0832 9.45888C19.0832 9.7359 19.3061 9.96001 19.5808 9.96001C19.8555 9.96001 20.0784 9.7359 20.0784 9.45888C20.0784 9.18225 19.8555 8.95774 19.5808 8.95774C19.3061 8.95774 19.0832 9.18225 19.0832 9.45888Z"] {
+    d: path("M14.625 12 22.875 12 22.875 12C23.4963 12 24 11.4963 24 10.875L24 10.0749 24 10.0749C24 9.8608 23.9542 9.6491 23.8655 9.4542L20.6497 2.3793 20.6497 2.3793C20.4063 1.8438 19.8723 1.5 19.2841 1.5L18.2159 1.5 18.2159 1.5C17.6277 1.5 17.0937 1.8438 16.8503 2.3793L13.6345 9.4542 13.6345 9.4542C13.5458 9.6491 13.5 9.8608 13.5 10.0749L13.5 10.875 13.5 10.875C13.5 11.4963 14.0037 12 14.625 12ZM19.5 10.5 18 10.5 18 9 19.5 9 19.5 10.5ZM19.5 7.4418 18 7.4418 18 4.5 19.5 4.5 19.5 7.4418Z");
     opacity: 0.4 !important;
 }
 /*Mini Thread Icon*/
 .content-1gYQeQ [d="M13.4399 12.96C12.9097 12.96 12.4799 13.3898 12.4799 13.92V20.2213C12.4799 20.7515 12.9097 21.1813 13.4399 21.1813H14.3999C14.5325 21.1813 14.6399 21.2887 14.6399 21.4213V23.4597C14.6399 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6622 21.2695 17.8916 21.1813 18.1294 21.1813H22.5599C23.0901 21.1813 23.5199 20.7515 23.5199 20.2213V13.92C23.5199 13.3898 23.0901 12.96 22.5599 12.96H13.4399Z"],
 .content-1gYQeQ [d="M13.44 12.9599C12.9098 12.9599 12.48 13.3897 12.48 13.9199V20.2212C12.48 20.7514 12.9098 21.1812 13.44 21.1812H14.4C14.5326 21.1812 14.64 21.2886 14.64 21.4212V23.4597C14.64 23.6677 14.8866 23.7772 15.0409 23.6377L17.4859 21.4289C17.6623 21.2694 17.8917 21.1812 18.1294 21.1812H22.56C23.0902 21.1812 23.52 20.7514 23.52 20.2212V13.9199C23.52 13.3897 23.0902 12.9599 22.56 12.9599H13.44Z"],
+.content-1gYQeQ [d="M12.48 13.92C12.48 13.3898 12.9098 12.96 13.44 12.96H22.56C23.0902 12.96 23.52 13.3898 23.52 13.92V20.2213C23.52 20.7515 23.0902 21.1813 22.56 21.1813H18.1294C17.8917 21.1813 17.6623 21.2695 17.4859 21.4289L15.0409 23.6378C14.8866 23.7773 14.64 23.6677 14.64 23.4597V21.4213C14.64 21.2887 14.5326 21.1813 14.4 21.1813H13.44C12.9098 21.1813 12.48 20.7515 12.48 20.2213V13.92Z"],
 .content-1gYQeQ [d="M12.48 13.92C12.48 13.3898 12.9098 12.96 13.44 12.96H22.56C23.0901 12.96 23.52 13.3898 23.52 13.92V20.2213C23.52 20.7514 23.0901 21.1813 22.56 21.1813H18.1294C17.8916 21.1813 17.6623 21.2695 17.4858 21.4289L15.0408 23.6378C14.8865 23.7772 14.64 23.6677 14.64 23.4597V21.4213C14.64 21.2887 14.5325 21.1813 14.4 21.1813H13.44C12.9098 21.1813 12.48 20.7514 12.48 20.2213V13.92Z"],
-.content-1gYQeQ [d="M13.44 12.96C12.9098 12.96 12.48 13.3898 12.48 13.92V20.2213C12.48 20.7515 12.9098 21.1813 13.44 21.1813H14.4C14.5326 21.1813 14.64 21.2887 14.64 21.4213V23.4597C14.64 23.6677 14.8866 23.7773 15.0409 23.6378L17.4859 21.4289C17.6623 21.2695 17.8917 21.1813 18.1294 21.1813H22.56C23.0902 21.1813 23.52 20.7515 23.52 20.2213V13.92C23.52 13.3898 23.0902 12.96 22.56 12.96H13.44Z"] {
+.content-1gYQeQ [d="M13.44 12.96C12.9098 12.96 12.48 13.3898 12.48 13.92V20.2213C12.48 20.7515 12.9098 21.1813 13.44 21.1813H14.4C14.5326 21.1813 14.64 21.2887 14.64 21.4213V23.4597C14.64 23.6677 14.8866 23.7773 15.0409 23.6378L17.4859 21.4289C17.6623 21.2695 17.8917 21.1813 18.1294 21.1813H22.56C23.0902 21.1813 23.52 20.7515 23.52 20.2213V13.92C23.52 13.3898 23.0902 12.96 22.56 12.96H13.44Z"],
+.content-1gYQeQ [d="M13.44 12.96C12.9098 12.96 12.48 13.3898 12.48 13.92V20.2213C12.48 20.7515 12.9098 21.1813 13.44 21.1813H14.4C14.5325 21.1813 14.64 21.2887 14.64 21.4213V23.4597C14.64 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6623 21.2695 17.8916 21.1813 18.1294 21.1813H22.56C23.0901 21.1813 23.52 20.7515 23.52 20.2213V13.92C23.52 13.3898 23.0901 12.96 22.56 12.96H13.44Z"] {
     d: path("M15 15.06C15 14.22 15.675 13.5 16.35 13.5H22.5375C23.5701 13.5 24 14.22 24 14.94V20.06C24 20.78 23.5701 21.5 22.5375 21.5H18.1294C17.8916 21.6813 17.6623 21.7695 17.4858 21.9289L15 24.5V15.06Z");
     opacity: 0.4 !important;
 }
 
 /*Text Icon*/
-/*Is Locked*/
+/*Is Locked or ARC*/
 .content-1gYQeQ [d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 10.1845 3 9.87344 3H8.88907C8.64664 3 8.43914 3.17391 8.39677 3.41262L7.76001 7H4.18011C3.93722 7 3.72946 7.17456 3.68759 7.41381L3.51259 8.41381C3.45905 8.71977 3.69449 9 4.00511 9H7.41001L6.35001 15H2.77011C2.52722 15 2.31946 15.1746 2.27759 15.4138L2.10259 16.4138C2.04905 16.7198 2.28449 17 2.59511 17H6.00001L5.39427 20.4126C5.3399 20.7189 5.57547 21 5.88657 21H6.87094C7.11337 21 7.32088 20.8261 7.36325 20.5874L8.00001 17H14L13.3943 20.4126C13.3399 20.7189 13.5755 21 13.8866 21H14.8709C15.1134 21 15.3209 20.8261 15.3632 20.5874L16 17H19.5799C19.8228 17 20.0306 16.8254 20.0724 16.5862L20.2474 15.5862C20.301 15.2802 20.0655 15 19.7549 15H16.35L16.6758 13.1558C16.7823 12.5529 16.3186 12 15.7063 12C15.2286 12 14.8199 12.3429 14.7368 12.8133L14.3504 15H8.35045L9.41045 9H13C13.5523 9 14 8.55228 14 8Z"] {
     d: path("M11.88 7 9.76 7 10.47 3 8.47 3 7.76 7 3.76 7 3.41 9 7.41 9 6.35 15 2.35 15 2 17 6 17 5.29 21 7.29 21 8 17 14 17 13.29 21 15.29 21 16 17 20 17 20.35 15 18.35 15 13.115 15 8.35 15 9.41 9 11.88 9 11.88 7Z");
     opacity: 0.15;
@@ -823,7 +920,7 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
     d: path("M5.4331 21C5.3584 21 5.3019 20.9325 5.3149 20.859L5.9999 17H2.1427C2.0682 17 2.0117 16.9327 2.0245 16.8593L2.3325 15.0993C2.3426 15.0419 2.3924 15 2.4507 15H6.3499L7.4099 9H3.5527C3.4782 9 3.4217 8.9327 3.4345 8.8593L3.7425 7.0993C3.7526 7.0419 3.8024 7 3.8607 7H7.7599L8.4523 3.099C8.4625 3.0417 8.5123 3 8.5705 3H10.3267C10.4014 3 10.4579 3.0675 10.4449 3.141L9.7599 7H15.7599L16.4523 3.099C16.4625 3.0417 16.5123 3 16.5705 3H18.3267C18.4014 3 18.4579 3.0675 18.4449 3.141L17.7599 7H21.6171C21.6916 7 21.7481 7.0672 21.7353 7.1407L21.4273 8.9007C21.4172 8.9581 21.3674 9 21.3091 9H9.4103L8.3504 15H12V17H7.9999L7.3075 20.901C7.2973 20.9583 7.2475 21 7.1893 21H5.4331Z");
     opacity: 0.15;
 }
-/*Has Locked and Thread*/
+/*Has Locked / ARC and Thread*/
 .content-1gYQeQ [d="M15.44 6.99992C15.5725 6.99992 15.68 7.10737 15.68 7.23992V8.75992C15.68 8.89247 15.5725 8.99992 15.44 8.99992H9.41045L8.35045 14.9999H10.56V16.9999H8.00001L7.36325 20.5873C7.32088 20.826 7.11337 20.9999 6.87094 20.9999H5.88657C5.57547 20.9999 5.3399 20.7189 5.39427 20.4125L6.00001 16.9999H2.59511C2.28449 16.9999 2.04905 16.7197 2.10259 16.4137L2.27759 15.4137C2.31946 15.1745 2.52722 14.9999 2.77011 14.9999H6.35001L7.41001 8.99992H4.00511C3.69449 8.99992 3.45905 8.71969 3.51259 8.41373L3.68759 7.41373C3.72946 7.17448 3.93722 6.99992 4.18011 6.99992H7.76001L8.39677 3.41254C8.43914 3.17384 8.64664 2.99992 8.88907 2.99992H9.87344C10.1845 2.99992 10.4201 3.28099 10.3657 3.58731L9.76001 6.99992H15.44Z"] {
     d: path("M11.88 7 9.76 7 10.47 3 8.47 3 7.76 7 3.76 7 3.41 9 7.41 9 6.35 15 2.35 15 2 17 6 17 5.29 21 7.29 21 8 17 12 17 12 15 8.35 15 9.41 9 11.88 9 11.88 7Z");
     opacity: 0.15;
@@ -833,7 +930,7 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 .content-1gYQeQ [d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"] {
     d: path("M 14 3 L 14 5.06 C 16.89 5.92 19 8.6 19 11.77 C 19 14.94 16.89 17.61 14 18.47 L 14 20.54 C 18 19.63 21 16.05 21 11.77 C 21 7.49 18 3.91 14 3 L 14 3 Z M 16.5 11.77 C 16.5 10 15.5 8.48 14 7.74 L 14 15.77 C 15.5 15.06 16.5 13.53 16.5 11.77 L 16.5 11.77 Z M 3 8.77 L 3 14.77 L 7 14.77 L 12 19.77 L 12 3.77 L 7 8.77 L 3 8.77 L 3 8.77 Z");
 }
-/*Is Locked*/
+/*Is Locked or ARC*/
 .content-1gYQeQ [d="M15 12C15 12.0007 15 12.0013 15 12.002C15 12.553 14.551 13.002 14 13.002V15.002C15.654 15.002 17 13.657 17 12.002C17 12.0013 17 12.0007 17 12H15ZM19 12C19 12.0007 19 12.0013 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 12.0013 21 12.0007 21 12H19ZM10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383 3.07904C11.757 3.23204 12 3.59904 12 4.00204V20.002C12 20.407 11.757 20.772 11.383 20.927C11.009 21.082 10.579 20.996 10.293 20.71L6 16.002H3C2.45 16.002 2 15.552 2 15.002V9.00204C2 8.45304 2.45 8.00204 3 8.00204H6L10.293 3.29604Z"] {
   d: path("M 20.4008 15 C 19.3331 17.7658 16.9359 19.8721 14 20.54 L 14 18.47 C 15.8269 17.9263 17.3422 16.6594 18.2097 15 L 20.4008 15 Z M 16.1605 13.4925 C 15.7468 14.492 14.9801 15.3061 14 15.77 L 14 13.4925 L 16.1605 13.4925 Z M 3 8.77 L 7 8.77 L 12 3.77 L 12 19.77 L 7 14.77 L 3 14.77 L 3 8.77 Z");
   opacity: 0.15;
@@ -846,15 +943,18 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 /*Announcement Channel Icon*/
 .content-1gYQeQ [d="M3.9 8.26H2V15.2941H3.9V8.26Z"],
 .content-1gYQeQ [d="M3.9 8.25981H2V15.2939H3.9V8.25981Z"],
+.content-1gYQeQ [d="M3.9 8.25998H2V15.2941H3.9V8.25998Z"],
+.content-1gYQeQ [d="M3.89988 8.25994H1.99988V15.2941H3.89988V8.25994Z"],
 .content-1gYQeQ [d="M3.9 8.25994H2V15.2941H3.9V8.25994Z"],
-.content-1gYQeQ [d="M3.89988 8.25994H1.99988V15.2941H3.89988V8.25994Z"] {
+.content-1gYQeQ [d="M3.89988 8.2599H1.99988V15.294H3.89988V8.2599Z"] {
     display: none;
 }
 .content-1gYQeQ [d="M19.1 4V5.12659L4.85 8.26447V18.1176C4.85 18.5496 5.1464 18.9252 5.5701 19.0315L9.3701 19.9727C9.4461 19.9906 9.524 20 9.6 20C9.89545 20 10.1776 19.8635 10.36 19.6235L12.7065 16.5242L19.1 17.9304V19.0588H21V4H19.1ZM9.2181 17.9944L6.75 17.3826V15.2113L10.6706 16.0753L9.2181 17.9944Z"] {
     d: path("M20,11 L4,11 L4,8 L20,8 L20,11 Z M20,15 L13,15 L13,13 L20,13 L20,15 Z M20,19 L13,19 L13,17 L20,17 L20,19 Z M11,19 L4,19 L4,13 L11,13 L11,19 Z M20.33,4.67 L18.67,3 L17,4.67 L15.33,3 L13.67,4.67 L12,3 L10.33,4.67 L8.67,3 L7,4.67 L5.33,3 L3.67,4.67 L2,3 L2,19 C2,20.1045695 2.8954305,21 4,21 L20,21 C21.1045695,21 22,20.1045695 22,19 L22,3 L20.33,4.67 Z")
 }
-/*Is Locked*/
-.content-1gYQeQ [d="M4.85 8.26429L15.84 5.84426V10.5599C15.84 11.6202 16.6996 12.4799 17.76 12.4799H21V19.0586H19.1V17.9302L12.7065 16.524L10.36 19.6233C10.1776 19.8633 9.89545 19.9998 9.6 19.9998C9.524 19.9998 9.4461 19.9904 9.3701 19.9725L5.5701 19.0313C5.1464 18.925 4.85 18.5495 4.85 18.1175V8.26429ZM9.2181 17.9942L6.75 17.3824V15.2111L10.6706 16.0751L9.2181 17.9942Z"] {
+/*Is Locked or ARC*/
+.content-1gYQeQ [d="M4.85 8.26429L15.84 5.84426V10.5599C15.84 11.6202 16.6996 12.4799 17.76 12.4799H21V19.0586H19.1V17.9302L12.7065 16.524L10.36 19.6233C10.1776 19.8633 9.89545 19.9998 9.6 19.9998C9.524 19.9998 9.4461 19.9904 9.3701 19.9725L5.5701 19.0313C5.1464 18.925 4.85 18.5495 4.85 18.1175V8.26429ZM9.2181 17.9942L6.75 17.3824V15.2111L10.6706 16.0751L9.2181 17.9942Z"],
+.content-1gYQeQ [d="M4.85 8.26445L16.7165 5.65143L15.1067 9.30608C14.5477 10.5751 15.4771 12 16.8638 12H21V19.0588H19.1V17.9303L12.7065 16.5242L10.36 19.6235C10.1776 19.8635 9.89545 20 9.6 20C9.524 20 9.4461 19.9906 9.3701 19.9727L5.5701 19.0315C5.1464 18.9252 4.85 18.5496 4.85 18.1176V8.26445ZM9.2181 17.9943L6.75 17.3826V15.2113L10.6706 16.0753L9.2181 17.9943Z"] {
     d: path("M12 11ZM20 19 13 19 13 17 20 17 20 19ZM11 19 4 19 4 13 11 13 11 19ZM12 3 10.33 4.67 8.67 3 7 4.67 5.33 3 3.67 4.67 2 3 2 19C2 20.1046 2.8954 21 4 21L20 21C21.1046 21 22 20.1046 22 19L22 15 12 15 12 11 4 11 4 8 12 8Z");
     opacity: 0.15;
 }
@@ -863,8 +963,9 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
     d: path("M20.33 4.67 18.67 3 17 4.67 15.33 3 13.67 4.67 12 3 10.33 4.67 8.67 3 7 4.67 5.33 3 3.67 4.67 2 3 2 19C2 20.1046 2.8954 21 4 21L12 21 12 11 4 11 4 8 20.33 8ZM11 19 4 19 4 13 11 13 11 19Z");
     opacity: 0.15;
 }
-/*Has Locked and Thread*/
-.content-1gYQeQ [d="M15.84 5.84438L4.85 8.26441V18.1176C4.85 18.5496 5.1464 18.9251 5.5701 19.0315L9.3701 19.9726C9.4461 19.9905 9.524 19.9999 9.6 19.9999C9.89545 19.9999 10.1776 19.8635 10.36 19.6235L10.56 19.3593V16.2214L9.2181 17.9943L6.75 17.3825V15.2112L10.56 16.0509V13.92C10.56 12.3294 11.8494 11.04 13.44 11.04H15.84V5.84438Z"] {
+/*Has Locked / ARC and Thread*/
+.content-1gYQeQ [d="M15.84 5.84438L4.85 8.26441V18.1176C4.85 18.5496 5.1464 18.9251 5.5701 19.0315L9.3701 19.9726C9.4461 19.9905 9.524 19.9999 9.6 19.9999C9.89545 19.9999 10.1776 19.8635 10.36 19.6235L10.56 19.3593V16.2214L9.2181 17.9943L6.75 17.3825V15.2112L10.56 16.0509V13.92C10.56 12.3294 11.8494 11.04 13.44 11.04H15.84V5.84438Z"],
+.content-1gYQeQ [d="M16.6811 5.6591L4.84988 8.26437V18.1175C4.84988 18.5495 5.14628 18.9251 5.56998 19.0314L9.36998 19.9726C9.44598 19.9905 9.52388 19.9999 9.59988 19.9999C9.89533 19.9999 10.1775 19.8634 10.3599 19.6234L10.5599 19.3592V16.2214L9.21798 17.9943L6.74988 17.3825V15.2112L10.5599 16.0508V13.9199C10.5599 12.3294 11.8493 11.0399 13.4399 11.0399H13.92L16.6811 5.6591Z"] {
     d: path("M12 3 10.33 4.67 8.67 3 7 4.67 5.33 3 3.67 4.67 2 3 2 19C2 20.1046 2.8954 21 4 21L12 21 12 11 4 11 4 8 12 8ZM11 19 4 19 4 13 11 13 11 19Z");
     opacity: 0.15;
 }
@@ -981,9 +1082,9 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
     left: -7px;
 }
 .wrapper-2fEmwW {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'SourceCodePro', monospace;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--textbox-markdown-syntax);
     height: 16px;
     border-radius: 3px;
@@ -6236,12 +6337,13 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .premiumContainer-3GGa8Q .pricePerInterval-1HgDkM,
 .premiumContainer-3GGa8Q .item-62htNl .icon-2iprHa,
 .premiumContainer-3GGa8Q .tier2-qNjKTW .tier2Title-8gwAVr,
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(7),
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(8),
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(2),
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(1),
 .premiumContainer-3GGa8Q .tier0-17mYUd .tier0LogoContainer-cNnIFm,
 .premiumContainer-3GGa8Q .tier0-17mYUd .item-62htNl:not(:nth-child(3)),
 .premiumContainer-3GGa8Q .newTagItem-1LPxlR,
-.premiumContainer-3GGa8Q .brandShine-2_xHTj {
+.premiumContainer-3GGa8Q .brandShine-2_xHTj,
+.premiumContainer-3GGa8Q .trialOfferText-qd9hSp {
     display: none;
 }
 .premiumContainer-3GGa8Q .premiumTierCardsContainer-2obTQK {
@@ -6257,27 +6359,78 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 }
 
 @keyframes nitroBG {
-    0%, 19.5%, 20%, 39.5%, 40%, 59.5%, 60%, 79.5%, 80%, 99.5%, 100% {opacity: 0; background-position-y: -10px;}
-    1%, 19.5%, 21%, 39.5%, 41%, 59.5%, 61%, 79.5%, 81%, 99.5% {opacity: 1; background-position-y: 0;}
+    0%, 19.5%, 20%, 39.5%, 40%, 59.5%, 60%, 79.5%, 80%, 99.5%, 100% {
+        opacity: 0;
+        background-position-y: -10px;
+    }
+    1%, 19.5%, 21%, 39.5%, 41%, 59.5%, 61%, 79.5%, 81%, 99.5% {
+        opacity: 1;
+        background-position-y: 0;
+    }
 
-    0%, 20% {filter: hue-rotate(50deg);}
-    20.0001%, 100% {filter: none;}
+    0%, 20% {
+        filter: hue-rotate(50deg);
+    }
+    20.0001%, 100% {
+        filter: none;
+    }
 
-    0%, 20% {background-image: url(https://discord.com/assets/5cf4181401e3d81acd4e811fae0797da.png);}
-    20.0001%, 40% {background-image: url(https://cdn.discordapp.com/app-assets/945737671223947305/953789899683795014.png?size=4096);}
-    40.0001%, 60% {background-image: url(https://cdn.discordapp.com/app-assets/902271654783242291/1037770095205826610.png?size=4096);}
-    60.0001%, 80% {background-image: url(https://cdn.discordapp.com/app-assets/832012774040141894/951327216350920714.png?size=4096);}
-    80.0001%, 100% {background-image: url(https://discord.com/assets/5cf4181401e3d81acd4e811fae0797da.png);}
+    0%, 20% {
+        background-image: url(https://discord.com/assets/5cf4181401e3d81acd4e811fae0797da.png);
+    }
+    20.0001%, 40% {
+        background-image: url(https://cdn.discordapp.com/app-assets/945737671223947305/953789899683795014.png?size=4096);
+    }
+    40.0001%, 60% {
+        background-image: url(https://cdn.discordapp.com/app-assets/902271654783242291/1037770095205826610.png?size=4096);
+    }
+    60.0001%, 80% {
+        background-image: url(https://cdn.discordapp.com/app-assets/832012774040141894/951327216350920714.png?size=4096);
+    }
+    80.0001%, 100% {
+        background-image: url(https://discord.com/assets/5cf4181401e3d81acd4e811fae0797da.png);
+    }
 }
 @keyframes nitroGameplay {
-    0%, 19.5%, 20%, 39.5%, 40%, 59.5%, 60%, 79.5%, 80%, 99.5%, 100% {opacity: 0; transform: translateY(-20px);}
-    1%, 19.5%, 21%, 39.5%, 41%, 59.5%, 61%, 79.5%, 81%, 99.5% {opacity: 1; transform: none;}
+    0%, 19.5%, 20%, 39.5%, 40%, 59.5%, 60%, 79.5%, 80%, 99.5%, 100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    1%, 19.5%, 21%, 39.5%, 41%, 59.5%, 61%, 79.5%, 81%, 99.5% {
+        opacity: 1;
+        transform: none;
+    }
 
-    0%, 20% {background-image: none;}
-    20.0001%, 40% {background-image: url(https://media.discordapp.net/attachments/1011374138121789470/1043353078499389501/956218994648576030.gif);}
-    40.0001%, 60% {background-image: url(https://media.discordapp.net/attachments/1011374138121789470/1043353110959108106/951328389279645756.gif);}
-    60.0001%, 80% {background-image: url(https://media.discordapp.net/attachments/1011374138121789470/1043353150943395911/951327097396285470.gif);}
-    80.0001%, 100% {background-image: none;}
+    0%, 20% {
+        margin: 0 0 110px;
+        min-width: 418px;
+        background-image: url(https://discord.com/assets/c4bae281354a2b4e2db85415955e0994.svg), url(https://discord.com/assets/81d74b2ebb053fbccee41865a47d48c3.svg), url(https://discord.com/assets/215346366a9a7d50924fc245ddb048d2.svg), url(https://discord.com/assets/e3b00394238f1dcc4eb1d6c58f405f3c.svg), url(https://discord.com/assets/9e05338bd66e0985fceb83317cb94b9c.svg), url(https://discord.com/assets/eb301f28da3199edbd3ef19690d61674.svg), url(https://discord.com/assets/0b5a0339571e72656eea93eb55d73eae.svg);
+        background-size: 160px 110px, 90px 90px, 92px 95px, 80px 80px, 80px 80px, 92px 82px, 118px 202px;
+        background-position: calc(50% - 10px) 100%, calc(50% - 70px) calc(100% - 80px), calc(50% + 70px) calc(100% - 34px), calc(50% - 70px) calc(100% - 169px), calc(50% + 175px) calc(100% - 95px), calc(50% + 130px) calc(100% - 140px), calc(50% - 150px) 100%;
+    }
+    20.0001%, 40% {
+        background-image: url(https://media.discordapp.net/attachments/1011374138121789470/1043353078499389501/956218994648576030.gif);
+    }
+    40.0001%, 60% {
+        background-image: url(https://media.discordapp.net/attachments/1011374138121789470/1043353110959108106/951328389279645756.gif);
+    }
+    60.0001%, 80% {
+        background-image: url(https://media.discordapp.net/attachments/1011374138121789470/1043353150943395911/951327097396285470.gif);
+    }
+    80.0001%, 100% {
+        background-image: none;
+    }
+
+    0%, 20%, 80.0001%, 100% {
+        box-shadow: none;
+    }
+    20.0001%, 80% {
+        margin: auto auto;
+        min-width: unset;
+        box-shadow: 0 6px 18px rgb(32 34 37 / 60%);
+        background-size: cover;
+        background-position: unset;
+    }
 }
 @keyframes nitroContent1 {
     0%, 20%, 100% {transform: translateY(-20px);}
@@ -6370,15 +6523,9 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     aspect-ratio: 16 / 9 !important;
     max-width: unset !important;
     width: 75% !important;
-    margin: auto auto;
     border-radius: 4px;
     animation: 70s nitroGameplay ease infinite !important;
-    background-size: cover;
-    box-shadow: 0 6px 18px rgb(32 34 37 / 60%);
-    transition: .4s cubic-bezier(0.3, -0.5, 0, 3);
-}
-.premiumContainer-3GGa8Q .tier2-qNjKTW .wumpusImageContainer-ZGD_8q .imageWrapper-oMkQl4:hover {
-    transform: scale(1.015);
+    background-repeat: no-repeat;
 }
 
 .premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl .text-md-normal-304U3g,
@@ -6403,44 +6550,44 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     line-height: 1.5;
     margin-top: 8px;
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(3) {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(6) {
     animation: 70s nitroContent1 ease infinite !important;
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(4) {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(5) {
     animation: 70s nitroContent2 ease infinite !important;
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(5) {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(4) {
     animation: 70s nitroContent3 ease infinite !important;
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(6) {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(3) {
     animation: 70s nitroContent4 ease infinite !important;
 }
 .premiumContainer-3GGa8Q .tier0-17mYUd .item-62htNl:nth-child(3),
 .premiumContainer-3GGa8Q .tier0-17mYUd .wumpusImageContainer-ZGD_8q {
     animation: 70s nitroContent5 ease infinite !important;
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(3) .text-md-normal-304U3g:before {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(6) .text-md-normal-304U3g:before {
     content: "Nitro now has games";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(3) .text-md-normal-304U3g:after {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(6) .text-md-normal-304U3g:after {
     content: "For a low monthly cost, get unlimited access to a library of in-app games that we think you and your friends should play.";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(4) .text-md-normal-304U3g:before {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(5) .text-md-normal-304U3g:before {
     content: "Putt Party";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(4) .text-md-normal-304U3g:after {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(5) .text-md-normal-304U3g:after {
     content: "Putt Party puts you head-to-head with up to seven other players and keeps you on your toes with special power-ups. It's golf like you've never seen before!";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(5) .text-md-normal-304U3g:before {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(4) .text-md-normal-304U3g:before {
     content: "Sketch Heads";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(5) .text-md-normal-304U3g:after {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(4) .text-md-normal-304U3g:after {
     content: "What am I drawing? One player sketches an image while other players compete to guess what it is first.";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(6) .text-md-normal-304U3g:before {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(3) .text-md-normal-304U3g:before {
     content: "Chess In The Park";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-child(6) .text-md-normal-304U3g:after {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(3) .text-md-normal-304U3g:after {
     content: "The classic board game available right through Discord. Play head to head against others and take down their king before they get yours.";
 }
 .premiumContainer-3GGa8Q .tier0-17mYUd  .item-62htNl:nth-child(3) .text-md-normal-304U3g:before {
@@ -6482,10 +6629,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .premiumContainer-3GGa8Q .tier2-qNjKTW .shinyButton-2Q9MDB:hover:after {
     border-color: var(--interactive-active);
 }
-
-
-
-
 .premiumContainer-3GGa8Q .tier0-17mYUd {
     pointer-events: none;
     position: absolute;
@@ -6504,6 +6647,9 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     width: 272px;
     top: 25%;
     right: 10%;
+}
+.premiumContainer-3GGa8Q .tier0-17mYUd .wumpusImageContainer-ZGD_8q .imageWrapper-oMkQl4 {
+    border-radius: 0 200px 0 0;
 }
 .premiumContainer-3GGa8Q .tier0-17mYUd .shinyButton-2Q9MDB {
     margin: 0 auto;
@@ -6717,12 +6863,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     border: solid 1px var(--background-tertiary) !important;
     background: var(--deprecated-card-editable-bg) !important;
 }
-.bd-sidebar-header .bd-icon {
-    display: none;
-}
-.bd-sidebar-header > .header-2Kx1US {
-    font-weight: 600;
-}
 .item-2idW98[aria-checked=false] .radioBar-3w9XY- .text-sm-normal-3Zj3Iv {
     font-weight: 400;
     color: var(--text-muted);
@@ -6858,9 +6998,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .bd-switch input[type=checkbox] svg {
   display: none;
 }
-.bd-addon-header .bd-switch {
-  margin-top: -18px;
-}
 
 /*Individual Settings Pages*/
 /*My Account*/
@@ -6963,20 +7100,20 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 
 /*Privacy & Safety*/
 /*Radio Bar*/
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl"] .text-md-medium-2avxhQ {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="var"] .text-md-medium-2avxhQ {
     color: var(--radio-bar-accent-color);
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%)"] {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="yellow"] {
     --radio-bar-accent-color: var(--info-warning-foreground) !important;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] {
     --radio-bar-accent-color: var(--info-danger-foreground) !important;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ {
     font-size: 0;
     line-height: unset;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv {
     font-size: 0;
     line-height: unset;
 }
@@ -6984,186 +7121,186 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     color: #fff;
 }
 /*Do not scan Text Replacement*/
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     font-size: 16px;
     line-height: 20px;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     font-size: 14px;
     line-height: 18px;
 }
-:lang(DA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(DA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Jeg bor på kanten";
 }
-:lang(DA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(DA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Slå dette fra. Scan ikke noget. Gå direkte til den mørke side.";
 }
-:lang(DE) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(DE) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Ich lebe am Limit";
 }
-:lang(DE) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(DE) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
 }
-:lang(EN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(EN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "I live on the edge";
 }
-:lang(EN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(EN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Turn this off. Don't scan anything. Go straight to the dark side.";
 }
-:lang(ES) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(ES) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Vivo al límite";
 }
-:lang(ES) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(ES) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Desactiva esto. No compruebes nada. Ve directo al lado oscuro.";
 }
-:lang(FR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(FR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Je vis dangereusement";
 }
-:lang(FR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(FR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Désactiver cette option. Ne rien analyser. Allons tout droit vers le côté obscur.";
 }
-:lang(HR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(HR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Živim na rubu";
 }
-:lang(HR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(HR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Ugasi ovo. Nemoj ništa skenirati. Idi ravno na mračnu stranu.";
 }
-:lang(IT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(IT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Mi piace rischiare";
 }
-:lang(IT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(IT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Disattiva del tutto il controllo dei messaggi diretti. Da grandi rischi derivano grandi responsabilità.";
 }
-:lang(LT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(LT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Aš gyvenu ant krašto";
 }
-:lang(LT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(LT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Išjunk. Nieko neskenuok. Eik tiesiai į tamsiąją pusę.";
 }
-:lang(HU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(HU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Veszélyesen élek";
 }
-:lang(HU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(HU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Kapcsold ki. Ne ellenőrizz semmit. Állj át a sötét oldalra.";
 }
-:lang(NL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(NL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Ik woon aan de rand";
 }
-:lang(NL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(NL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Schakel dit uit. Scan niets. Ga direct naar de donkere kant.";
 }
-:lang(NO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(NO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Jeg bor på kanten";
 }
-:lang(NO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(NO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Slå av dette. Ikke skann noe. Gå rett til den mørke siden.";
 }
-:lang(PL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(PL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Żyję na krawędzi";
 }
-:lang(PL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(PL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Wyłącz to. Nic nie skanuj. Przejdź prosto na ciemną stronę mocy.";
 }
-:lang(PT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(PT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Eu sou vida louca";
 }
-:lang(PT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(PT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Desative isso. Não analise nada. Vá direto para o lado negro da força.";
 }
-:lang(RO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(RO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Trăiesc la limită";
 }
-:lang(RO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(RO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Oprește-l. Nu scana nimic. Du-te direct de partea răului.";
 }
-:lang(FI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(FI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Olen reunalla eläjä";
 }
-:lang(FI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(FI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Kytke tämä pois. Älä tarkista mitään. Siirry pimeälle puolelle.";
 }
-:lang(SV) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(SV) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Jag gillar att leva farligt";
 }
-:lang(SV) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(SV) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Inaktivera detta. Skanna ingenting. Gå över till den mörka sidan.";
 }
-:lang(VI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(VI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Tôi thuộc kiểu ưa phiêu lưu";
 }
-:lang(VI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(VI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Tắt tính năng này. Không quét gì cả. Đi thẳng đến mặt tối.";
 }
-:lang(TR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(TR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Tehlike içinde yaşıyorum";
 }
-:lang(TR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(TR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Bunu kapat. Hiçbir şeyi tarama. Direkt karanlık tarafa geç.";
 }
-:lang(CS) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(CS) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Bydlím na okraji";
 }
-:lang(CS) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(CS) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Vypněte to. Nic neskenujte. Jděte přímo na temnou stranu.";
 }
-:lang(EL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(EL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Ζω στα άκρα";
 }
-:lang(EL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(EL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Απενεργοποίησέ το. Μην ελέγχεις τίποτα. Πήγαινε κατευθείαν στη σκοτεινή πλευρά.";
 }
-:lang(BG) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(BG) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Живея на ръба";
 }
-:lang(BG) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(BG) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Изключете това. Не сканирайте нищо. Отидете направо на тъмната страна.";
 }
-:lang(RU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(RU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Я рисковый человек";
 }
-:lang(RU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(RU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Выключите это. Не надо ничего проверять. Отправляюсь на темную сторону.";
 }
-:lang(UK) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(UK) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Я ризикова людина";
 }
-:lang(UK) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(UK) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Вимкніть це. Не треба нічого перевіряти. Відправляюсь на темну сторону.";
 }
-:lang(HI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(HI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "मैं किनारे पर रहता हूँ";
 }
-:lang(HI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(HI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "इसे बंद कर दें। कुछ भी स्कैन न करें। सीधे डार्क साइड पर जाएं।";
 }
-:lang(TH) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(TH) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "ฉันชอบความท้าทาย";
 }
-:lang(TH) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(TH) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "ไม่ต้องคัดกรองข้อความใดๆทั้งสิ้น มุ่งหน้าสู่ด้านมืด!";
 }
-:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "我活在社会边缘";
 }
-:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "关闭此功能。不扫描任何东西。直走到黑暗的一面。";
 }
-:lang(JA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(JA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "そんなの平気さ";
 }
-:lang(JA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(JA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "機能をオフにします。一切スキャンしません。闇に堕ちるがいい。";
 }
-:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "我活在社會邊緣";
 }
-:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "關閉此功能。 不掃描任何東西。 直到黑暗的那一邊。";
 }
-:lang(KO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-md-medium-2avxhQ:before {
+:lang(KO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "나는 가장자리에 산다";
 }
-:lang(KO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] .text-sm-normal-3Zj3Iv:before {
+:lang(KO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "이 기능을 끕니다. 아무것도 스캔하지 마십시오. 어두운 면으로 바로 가십시오.";
 }
 /*Request Data Button*/
@@ -7729,8 +7866,111 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     color: currentColor !important;
 }
 
-/*Server Boost Guild Popout Variant*/
+/*BD Settings*/
+/*Sidebar*/
+.bd-sidebar-header {
+    flex-direction: column;
+}
+.bd-changelog-button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    height: unset !important;
+    pointer-events: none;
+}
+.bd-changelog-button:before {
+    color: var(--channels-default);
+    content: "BD v1.8.1 by Zerebos";
+}
+.bd-changelog-button:after {
+    color: var(--brand-experiment);
+    content: "View Changelog";
+}
+.bd-sidebar-header .bd-icon {
+    pointer-events: auto;
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    width: 100% !important;
+    opacity: 0;
+}
 
+/*Plugin and Theme Box*/
+.bd-addon-list .bd-addon-card {
+    background: var(--background-secondary-alt);
+    border: 1px solid var(--background-tertiary);
+    padding: 0 7px;
+}
+/*Header*/
+.bd-addon-list .bd-addon-header svg {
+    display: none;
+}
+.bd-addon-list .bd-addon-header {
+    background: transparent;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: unset;
+    border-bottom: 1px solid rgba(255, 255, 255, 9.75%);
+}
+.theme-light .bd-addon-list .bd-addon-header {
+    border-color: rgba(0, 0, 0, 9.75%);
+}
+.bd-addon-list .bd-addon-header .bd-meta {
+    color: unset;
+    font-weight: unset;
+}
+.bd-addon-list .bd-switch input {
+    position: unset;
+    right: 0;
+}
+.bd-addon-header .bd-switch input[type=checkbox]:before {
+    margin-top: unset;
+    margin-left: -2px;
+    margin-bottom: -2px;
+}
+.bd-addon-header .bd-switch input[type=checkbox]:after {
+    top: 3px;
+    left: 1px;
+}
+/*Description*/
+.bd-addon-list .bd-description-wrap {
+    padding: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 9.75%);
+}
+.bd-addon-list .bd-description {
+    padding: 8px 0;
+    margin: 0;
+    max-height: 110px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+}
+/*Bottom Bar*/
+.bd-addon-list .bd-footer {
+    padding: 5px 0;
+}
+.bd-addon-list .bd-footer .bd-links .bd-addon-button {
+    height: 21px;
+}
+.bd-controls>.bd-addon-button {
+    padding: 3px 5px;
+}
+.bd-controls>.bd-addon-button svg {
+    width: 15px !important;
+    height: 15px !important;
+}
+.bd-controls>.bd-addon-button:first-of-type {
+    border-radius: 7px 0 0 7px;
+}
+.bd-controls>.bd-addon-button:last-of-type {
+    border-radius: 0 7px 7px 0;
+}
 
 
 /*Gun Emoji*/
@@ -7758,32 +7998,82 @@ body {
     --yellow: #faa61a;
     --info-warning-foreground: #faa61a;
     --yellow-hover: #e19517;
-    --brand-experiment-100: hsl(228,calc(var(--saturation-factor, 1)*55.6%),98.2%);
-    --brand-experiment-130: hsl(228,calc(var(--saturation-factor, 1)*62.5%),96.9%);
-    --brand-experiment-160: hsl(228,calc(var(--saturation-factor, 1)*60.0%),95.1%);
-    --brand-experiment-200: hsl(229,calc(var(--saturation-factor, 1)*60.0%),93.1%);
-    --brand-experiment-230: hsl(227,calc(var(--saturation-factor, 1)*57.4%),90.8%);
-    --brand-experiment-260: hsl(226,calc(var(--saturation-factor, 1)*58.6%),88.6%);
-    --brand-experiment-300: hsl(227,calc(var(--saturation-factor, 1)*57.7%),86.1%);
-    --brand-experiment-330: hsl(227,calc(var(--saturation-factor, 1)*59.1%),81.8%);
-    --brand-experiment-360: hsl(227,calc(var(--saturation-factor, 1)*57.9%),77.6%);
-    --brand-experiment-400: hsl(226,calc(var(--saturation-factor, 1)*58.0%),72.0%);
-    --brand-experiment-430: hsl(227,calc(var(--saturation-factor, 1)*58.2%),70.0%);
-    --brand-experiment-460: hsl(227,calc(var(--saturation-factor, 1)*58.5%),67.8%);
-    --brand-experiment: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
-    --brand-experiment-500: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
-    --brand-experiment-530: hsl(227,calc(var(--saturation-factor, 1)*45.2%),59.2%);
-    --brand-experiment-560: hsl(227,calc(var(--saturation-factor, 1)*35.3%),52.7%);
-    --brand-experiment-600: hsl(227,calc(var(--saturation-factor, 1)*31.0%),44.3%);
-    --brand-experiment-630: hsl(226,calc(var(--saturation-factor, 1)*31.3%),38.2%);
-    --brand-experiment-660: hsl(226,calc(var(--saturation-factor, 1)*31.0%),33.5%);
-    --brand-experiment-700: hsl(227,calc(var(--saturation-factor, 1)*30.8%),26.1%);
-    --brand-experiment-730: hsl(228,calc(var(--saturation-factor, 1)*31.2%),24.5%);
-    --brand-experiment-760: hsl(227,calc(var(--saturation-factor, 1)*31.6%),22.4%);
-    --brand-experiment-800: hsl(226,calc(var(--saturation-factor, 1)*31.3%),19.4%);
-    --brand-experiment-830: hsl(225,calc(var(--saturation-factor, 1)*31.6%),14.9%);
-    --brand-experiment-860: hsl(225,calc(var(--saturation-factor, 1)*32.0%),9.8%);
-    --brand-experiment-900: hsl(228,calc(var(--saturation-factor, 1)*29.4%),3.3%);
+    --brand-100: hsl(228,calc(var(--saturation-factor, 1)*55.6%),98.2%);
+    --brand-130: hsl(228,calc(var(--saturation-factor, 1)*62.5%),96.9%);
+    --brand-160: hsl(228,calc(var(--saturation-factor, 1)*60.0%),95.1%);
+    --brand-200: hsl(229,calc(var(--saturation-factor, 1)*60.0%),93.1%);
+    --brand-230: hsl(227,calc(var(--saturation-factor, 1)*57.4%),90.8%);
+    --brand-260: hsl(226,calc(var(--saturation-factor, 1)*58.6%),88.6%);
+    --brand-300: hsl(227,calc(var(--saturation-factor, 1)*57.7%),86.1%);
+    --brand-330: hsl(227,calc(var(--saturation-factor, 1)*59.1%),81.8%);
+    --brand-360: hsl(227,calc(var(--saturation-factor, 1)*57.9%),77.6%);
+    --brand-400: hsl(226,calc(var(--saturation-factor, 1)*58.0%),72.0%);
+    --brand-430: hsl(227,calc(var(--saturation-factor, 1)*58.2%),70.0%);
+    --brand-460: hsl(227,calc(var(--saturation-factor, 1)*58.5%),67.8%);
+    --brand-500: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
+    --brand-530: hsl(227,calc(var(--saturation-factor, 1)*45.2%),59.2%);
+    --brand-560: hsl(227,calc(var(--saturation-factor, 1)*35.3%),52.7%);
+    --brand-600: hsl(227,calc(var(--saturation-factor, 1)*31.0%),44.3%);
+    --brand-630: hsl(226,calc(var(--saturation-factor, 1)*31.3%),38.2%);
+    --brand-660: hsl(226,calc(var(--saturation-factor, 1)*31.0%),33.5%);
+    --brand-700: hsl(227,calc(var(--saturation-factor, 1)*30.8%),26.1%);
+    --brand-730: hsl(228,calc(var(--saturation-factor, 1)*31.2%),24.5%);
+    --brand-760: hsl(227,calc(var(--saturation-factor, 1)*31.6%),22.4%);
+    --brand-800: hsl(226,calc(var(--saturation-factor, 1)*31.3%),19.4%);
+    --brand-830: hsl(225,calc(var(--saturation-factor, 1)*31.6%),14.9%);
+    --brand-860: hsl(225,calc(var(--saturation-factor, 1)*32.0%),9.8%);
+    --brand-900: hsl(228,calc(var(--saturation-factor, 1)*29.4%),3.3%);
+    --brand-new-100: hsl(228,calc(var(--saturation-factor, 1)*55.6%),98.2%);
+    --brand-new-130: hsl(228,calc(var(--saturation-factor, 1)*62.5%),96.9%);
+    --brand-new-160: hsl(228,calc(var(--saturation-factor, 1)*60.0%),95.1%);
+    --brand-new-200: hsl(229,calc(var(--saturation-factor, 1)*60.0%),93.1%);
+    --brand-new-230: hsl(227,calc(var(--saturation-factor, 1)*57.4%),90.8%);
+    --brand-new-260: hsl(226,calc(var(--saturation-factor, 1)*58.6%),88.6%);
+    --brand-new-300: hsl(227,calc(var(--saturation-factor, 1)*57.7%),86.1%);
+    --brand-new-330: hsl(227,calc(var(--saturation-factor, 1)*59.1%),81.8%);
+    --brand-new-360: hsl(227,calc(var(--saturation-factor, 1)*57.9%),77.6%);
+    --brand-new-400: hsl(226,calc(var(--saturation-factor, 1)*58.0%),72.0%);
+    --brand-new-430: hsl(227,calc(var(--saturation-factor, 1)*58.2%),70.0%);
+    --brand-new-460: hsl(227,calc(var(--saturation-factor, 1)*58.5%),67.8%);
+    --brand-new-500: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
+    --brand-new-530: hsl(227,calc(var(--saturation-factor, 1)*45.2%),59.2%);
+    --brand-new-560: hsl(227,calc(var(--saturation-factor, 1)*35.3%),52.7%);
+    --brand-new-600: hsl(227,calc(var(--saturation-factor, 1)*31.0%),44.3%);
+    --brand-new-630: hsl(226,calc(var(--saturation-factor, 1)*31.3%),38.2%);
+    --brand-new-660: hsl(226,calc(var(--saturation-factor, 1)*31.0%),33.5%);
+    --brand-new-700: hsl(227,calc(var(--saturation-factor, 1)*30.8%),26.1%);
+    --brand-new-730: hsl(228,calc(var(--saturation-factor, 1)*31.2%),24.5%);
+    --brand-new-760: hsl(227,calc(var(--saturation-factor, 1)*31.6%),22.4%);
+    --brand-new-800: hsl(226,calc(var(--saturation-factor, 1)*31.3%),19.4%);
+    --brand-new-830: hsl(225,calc(var(--saturation-factor, 1)*31.6%),14.9%);
+    --brand-new-860: hsl(225,calc(var(--saturation-factor, 1)*32.0%),9.8%);
+    --brand-new-900: hsl(228,calc(var(--saturation-factor, 1)*29.4%),3.3%);
+    --brand-experiment-100: var(--brand-new-100);
+    --brand-experiment-130: var(--brand-new-130);
+    --brand-experiment-160: var(--brand-new-160);
+    --brand-experiment-200: var(--brand-new-200);
+    --brand-experiment-230: var(--brand-new-230);
+    --brand-experiment-260: var(--brand-new-260);
+    --brand-experiment-300: var(--brand-new-300);
+    --brand-experiment-330: var(--brand-new-330);
+    --brand-experiment-360: var(--brand-new-360);
+    --brand-experiment-400: var(--brand-new-400);
+    --brand-experiment-430: var(--brand-new-430);
+    --brand-experiment-460: var(--brand-new-460);
+    --brand-experiment: var(--brand-new-500);
+    --brand-experiment-500: var(--brand-new-500);
+    --brand-experiment-530: var(--brand-new-530);
+    --brand-experiment-560: var(--brand-new-560);
+    --brand-experiment-600: var(--brand-new-600);
+    --brand-experiment-630: var(--brand-new-630);
+    --brand-experiment-660: var(--brand-new-660);
+    --brand-experiment-700: var(--brand-new-700);
+    --brand-experiment-730: var(--brand-new-730);
+    --brand-experiment-760: var(--brand-new-760);
+    --brand-experiment-800: var(--brand-new-800);
+    --brand-experiment-830: var(--brand-new-830);
+    --brand-experiment-860: var(--brand-new-860);
+    --brand-experiment-900: var(--brand-new-900);
     --brand-experiment-05a: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%, 0.05);
     --brand-experiment-10a: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%, 0.1);
     --brand-experiment-15a: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%, 0.15);
@@ -8236,8 +8526,5 @@ body {
 
 /* Fix hardcoded unread bar not being red */
 .isUnread-3Lojb- {
-  border-color: var(--divider-color) !important;
+  border-color: var(--text-danger) !important;
 }
-
-/*Status Colors*/
-rect[fill^="hsl(139,"] {fill: var(--text-positive);}
