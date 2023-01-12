@@ -111,7 +111,7 @@
     animation: egg_barrelRoll 4s ease;
 }
 
-@keyframes egg_flashBang {
+@keyframes egg_flashBangFlash {
     1% {
         background-color: #fff;
         animation-timing: none;
@@ -121,8 +121,16 @@
         animation-timing: ease;
     }
 }
+@keyframes egg_flashBangBlur {
+    1% {
+        filter: blur(10px);
+    }
+    to {
+        filter: none;
+    }
+}
 #app-mount:has(.layer-1Ixpg3 .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-Y7Q .input-2g-os5[value="flash bang"]) .focusLock-2tveLW:after {
-    animation: egg_flashBang 8s;
+    animation: egg_flashBangFlash 8s;
     content: "";
     position: fixed;
     top: 0;
@@ -130,6 +138,9 @@
     right: 0;
     bottom: 0;
     pointer-events: none;
+}
+#app-mount:has(.layer-1Ixpg3 .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-Y7Q .input-2g-os5[value="flash bang"]) {
+    animation: egg_flashBangBlur 12s;
 }
 
 @keyframes egg_zereZoomHide {
