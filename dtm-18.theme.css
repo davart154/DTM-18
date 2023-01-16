@@ -7,84 +7,6 @@
 * @source https://github.com/davart154/DTM-18/blob/main/dtm-18.css
 */
 
-/*Font Type*/
-@font-face {
-  font-family: Whitney;
-  font-weight: 300;
-  src: url(/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff) format("woff");
-}
-@font-face {
-  font-family: Whitney;
-  font-weight: 400;
-  src: url(/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff) format("woff");
-}
-@font-face {
-  font-family: Whitney;
-  font-weight: 500;
-  src: url(/assets/3bdef1251a424500c1b3a78dea9b7e57.woff) format("woff");
-}
-@font-face {
-  font-family: Whitney;
-  font-weight: 600;
-  src: url(/assets/be0060dafb7a0e31d2a1ca17c0708636.woff) format("woff");
-}
-@font-face {
-  font-family: Whitney;
-  font-weight: 700;
-  src: url(/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff) format("woff");
-}
-@font-face {
-    font-family: ABC Ginto Normal;
-    font-style: normal;
-    font-weight: 400;
-    src: url(/assets/127465eff7b4a91feb3f8ac7f3cb2bde.woff2) format("woff2");
-}
-@font-face {
-    font-family: ABC Ginto Normal;
-    font-style: italic;
-    font-weight: 400;
-    src: url(/assets/36675ada27ae82c88b9a6b796f127c59.woff2) format("woff2");
-}
-@font-face {
-    font-family: ABC Ginto Normal;
-    font-style: normal;
-    font-weight: 500;
-    src: url(/assets/5b558dbb0bb5347a9883248ec2f48be3.woff2) format("woff2");
-}
-@font-face {
-    font-family: ABC Ginto Normal;
-    font-style: italic;
-    font-weight: 500;
-    src: url(/assets/b3625a8ecf272987eff367aaee1d74dc.woff2) format("woff2");
-}
-@font-face {
-    font-family: ABC Ginto Normal;
-    font-style: normal;
-    font-weight: 700;
-    src: url(/assets/22c37159391fd87080c4915b5b1f5a3d.woff2) format("woff2");
-}
-@font-face {
-    font-family: ABC Ginto Normal;
-    font-style: italic;
-    font-weight: 700;
-    src: url(/assets/795347423b789cbdbcd959303849669a.woff2) format("woff2");
-}
-:root, ::-webkit-input-placeholder, body, button, input, select, textarea {
-    --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-display: var(--font-primary);
-}
-:lang(ko) {
-    --font-primary: Whitney,"Apple SD Gothic Neo",NanumBarunGothic,"\B9D1\C740 \ACE0\B515","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-:lang(ja) {
-    --font-primary: Whitney,"Hiragino Sans","\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3","Hiragino Kaku Gothic ProN",メイリオ,Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-:lang(zh-CN) {
-    --font-primary: Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-:lang(zh-TW) {
-    --font-primary: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 @font-face {
   font-family: SourceCodePro;
   font-style: normal;
@@ -240,7 +162,7 @@ mask > use[href$="lower_badge_masks"] {
     bottom: -2px;
     right: -2px;
 }
-/*New Indicator*/
+/*New Feature Indicator*/
 .newBadge-1bHewI,
 .side-2ur1Qk .base-3IDx3L[style*="background-color: var(--status-danger)"] {
     background-clip: padding-box;
@@ -266,7 +188,7 @@ mask > use[href$="lower_badge_masks"] {
     font-weight: 500;
     line-height: 12px;
 }
-/*New Event Indicator*/
+/*New User Made Content Indicator*/
 .eventStatusContainer-3K6TiP .newBadge-3QiMZJ {
     background-color: transparent !important;
     border: 1px solid var(--brand-experiment);
@@ -1974,6 +1896,29 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
     height: 30px !important;
 }
 
+/*Bottom VC Panel*/
+.rtcConnectionStatus-c5A6Av .ping-2IpLcU path {
+    display: none;
+}
+.rtcConnectionStatus-c5A6Av .ping-2IpLcU {
+    background: url(/assets/ebca02c11904a3812be7212755e6261f.svg) 50% no-repeat;
+    background-size: 11px 12px;
+    display: inline-block;
+    height: 12px;
+    margin-left: 1px;
+    margin-right: 5px;
+    width: 11px;
+}
+.rtcConnectionStatus-c5A6Av.rtcConnectionQualityFine-3zZrSa .ping-2IpLcU {
+    background-image: url(/assets/b3f2e4ca10bff87e4b06a94f219ce668.svg);
+}
+.rtcConnectionStatus-c5A6Av.rtcConnectionQualityAverage-USzsaD .ping-2IpLcU {
+    background-image: url(/assets/d6bebc319e0d9111afbe321a9b78db28.svg);
+}
+.rtcConnectionStatus-c5A6Av.rtcConnectionQualityBad-3fxsmZ .ping-2IpLcU {
+    background-image: url(/assets/f4791144219e2832c441b0892f07baf8.svg);
+}
+
 /*Icons*/
 .button-12Fmur {
     border: none;
@@ -3529,6 +3474,74 @@ content: "#";
     background-image: url(https://discord.com/assets/fed3c2dcbbb79837d568cb8d648c86d6.png) !important;
 }
 
+/*setTimeout(function(){debugger;}, 1000)*/
+/*Being Called Popout*/
+.wrapper-3X0c60 {
+    z-index: 2001;
+}
+.root-1e2tfc {
+    background-color: var(--background-tertiary);
+    border: 1px solid #18191c;
+    border-radius: 5px;
+    padding: 20px 10px 10px;
+}
+.theme-light .root-1e2tfc {
+    background: #f6f6f7;
+    border-color: #dcddde;
+}
+
+.root-1e2tfc .mainChannelInfo-3I-_7Y .title-1xszmS {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+.root-1e2tfc .subtitle-NatkZZ {
+    color: #72767d;
+    font-size: 0.875rem;
+}
+.root-1e2tfc .actions-AdUAR0 {
+    flex-direction: column-reverse;
+    width: 100%;
+}
+.root-1e2tfc .centerButton-1IShs7 {
+    margin: 0;
+    border-radius: 3px;
+    height: 36px;
+    width: 100%;
+    padding: 0 14px;
+}
+.root-1e2tfc .actionButton-2S7dMn.last-2rLGug {
+    margin-bottom: 8px;
+}
+.root-1e2tfc .actionButton-2S7dMn:after {
+    content: attr(aria-label);
+}
+.root-1e2tfc .colorable-3rVGna.green-3wkLbx {
+    background-color: var(--button-positive-background);
+}
+.root-1e2tfc .colorable-3rVGna.green-3wkLbx:hover {
+    background-color: var(--button-positive-background-hover);
+}
+.root-1e2tfc .colorable-3rVGna.green-3wkLbx:active {
+    background-color: var(--button-positive-background-active);
+}
+.root-1e2tfc .colorable-3rVGna.red-3T8maV svg {
+    display: none;
+}
+.root-1e2tfc .colorable-3rVGna.red-3T8maV {
+    background-color: var(--status-grey-700);
+}
+.root-1e2tfc .controlIcon-10O-4h.centerIcon-JYpTUi {
+    opacity: 1;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    margin-right: 4px;
+}
+[d="M11 5V3C16.515 3 21 7.486 21 13H19C19 8.589 15.411 5 11 5ZM17 13H15C15 10.795 13.206 9 11 9V7C14.309 7 17 9.691 17 13ZM11 11V13H13C13 11.896 12.105 11 11 11ZM14 16H18C18.553 16 19 16.447 19 17V21C19 21.553 18.553 22 18 22H13C6.925 22 2 17.075 2 11V6C2 5.447 2.448 5 3 5H7C7.553 5 8 5.447 8 6V10C8 10.553 7.553 11 7 11H6C6.063 14.938 9 18 13 18V17C13 16.447 13.447 16 14 16Z"] {
+    d: path("M14.99 11C14.99 12.66 13.66 14 12 14C10.34 14 9 12.66 9 11V5C9 3.34 10.34 2 12 2C13.66 2 15 3.34 15 5L14.99 11ZM12 16.1C14.76 16.1 17.3 14 17.3 11H19C19 14.42 16.28 17.24 13 17.72V22H11V17.72C7.72 17.23 5 14.41 5 11H6.7C6.7 14 9.24 16.1 12 16.1Z");
+}
+
 /*Voice*/
 .callContainer-HtHELf {
     background: var(--background-secondary);
@@ -3538,7 +3551,7 @@ content: "#";
 }
 /*Region Selector*/
 .wrapper-1gVUIN .callContainer-HtHELf .quickSelect-384d3G {
-  margin-top: 8px;
+    margin-top: 8px;
 }
 
 /*DM / Group pfps*/
@@ -3578,34 +3591,34 @@ content: "#";
 
 /*Video Controls*/
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .controlButton-2PMNom {
-  width: 32px;
-  height: 32px;
-  margin: 0 2px;
+    width: 32px;
+    height: 32px;
+    margin: 0 2px;
 }
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .controlButton-2PMNom foreignObject .centerButton-1IShs7 {
-  width: 32px;
-  height: 32px;
+    width: 32px;
+    height: 32px;
 }
 .root-22AK9z .wrapper-3t3Yqv {
-  border-radius: 3px;
-  background: var(--background-floating);
-  padding: 2px 4px;
+    border-radius: 3px;
+    background: var(--background-floating);
+    padding: 2px 4px;
 }
 
 /*Buttons*/
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi, .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi, .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.primaryLight-1yA273 .centerIcon-JYpTUi, .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.activeLight-3Bpdpx .centerIcon-JYpTUi {
-  color: var(--interactive-active);
+    color: var(--interactive-active);
 }
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .controlIcon-10O-4h {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.primaryDark-2UJt1G, .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.white-11auuQ, .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.primaryLight-1yA273, .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.activeLight-3Bpdpx {
-  background-color: transparent;
-  opacity: .6;
+    background-color: transparent;
+    opacity: .6;
 }
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.primaryDark-2UJt1G:hover, .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.white-11auuQ:hover, .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.primaryLight-1yA273:hover, .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.activeLight-3Bpdpx:hover {
-  opacity: 1 !important;
+    opacity: 1 !important;
 }
 .videoControls-353CsJ [d="M2 4.5C2 3.397 2.897 2.5 4 2.5H20C21.103 2.5 22 3.397 22 4.5V15.5C22 16.604 21.103 17.5 20 17.5H13V19.5H17V21.5H7V19.5H11V17.5H4C2.897 17.5 2 16.604 2 15.5V4.5ZM13.2 14.3375V11.6C9.864 11.6 7.668 12.6625 6 15C6.672 11.6625 8.532 8.3375 13.2 7.6625V5L18 9.6625L13.2 14.3375Z"] {
     d: path("M20,17 C21.1,17 21.99,16.1 21.99,15 L22,5 C22,3.89 21.1,3 20,3 L4,3 C2.89,3 2,3.89 2,5 L2,15 C2,16.1 2.89,17 4,17 L11,17 L11,19 L9,19 L9,21 L15,21 L15,19 L13,19 L13,17 L20,17 Z M13,13.47 L13,11.28 C10.22,11.28 8.39,12.13 7,14 C7.56,11.33 9.11,8.67 13,8.13 L13,6 L17,9.73 L13,13.47 Z");
@@ -3613,37 +3626,47 @@ content: "#";
 .videoControls-353CsJ [d="M21.526 8.149C21.231 7.966 20.862 7.951 20.553 8.105L18 9.382V7C18 5.897 17.103 5 16 5H4C2.897 5 2 5.897 2 7V17C2 18.104 2.897 19 4 19H16C17.103 19 18 18.104 18 17V14.618L20.553 15.894C20.694 15.965 20.847 16 21 16C21.183 16 21.365 15.949 21.526 15.851C21.82 15.668 22 15.347 22 15V9C22 8.653 21.82 8.332 21.526 8.149Z"] {
     d: path("M17,10.5 L17,7 C17,6.45 16.55,6 16,6 L4,6 C3.45,6 3,6.45 3,7 L3,17 C3,17.55 3.45,18 4,18 L16,18 C16.55,18 17,17.55 17,17 L17,13.5 L21,17.5 L21,6.5 L17,10.5 Z");
 }
-/*Disconnect Button*/
+/*Text Buttons*/
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .centerButton-1IShs7 {
-  border-radius: 3px;
-  padding: 2px 16px;
+    border-radius: 3px;
+    padding: 2px 16px;
 }
-.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.red-3T8maV {
-  width: auto !important;
-  min-width: 60px;
-  height: 32px;
-  padding: 2px 16px;
-  text-transform: uppercase;
-  font-size: 14px;
-  white-space: nowrap;
+.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.red-3T8maV,
+.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.green-3wkLbx {
+    width: auto !important;
+    min-width: 60px;
+    height: 32px;
+    padding: 2px 16px;
+    text-transform: uppercase;
+    font-size: 14px;
+    white-space: nowrap;
 }
-.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.red-3T8maV:after {
-  content: attr(aria-label);
+.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.red-3T8maV:after,
+.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.green-3wkLbx:after {
+    content: attr(aria-label);
 }
-.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.red-3T8maV svg {
-  display: none;
+.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.red-3T8maV svg,
+.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.green-3wkLbx svg {
+    display: none;
 }
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.red-3T8maV:hover {
-  background: var(--button-danger-background);
+    background: var(--button-danger-background);
+}
+.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.green-3wkLbx,
+.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.green-3wkLbx:hover {
+    background: var(--button-positive-background);
 }
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.red-3T8maV:active {
-  background: var(--button-danger-background-hover);
+    background: var(--button-danger-background-hover);
+}
+.root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .colorable-3rVGna.green-3wkLbx:hover {
+    background: var(--button-positive-background-hover)
 }
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .controlIcon-10O-4h .slash-2yrR11 {
-  color: inherit;
+    color: inherit;
 }
 .root-22AK9z .videoControls-353CsJ .bottomControls-31YuPK .contextMenuNub-NuTZ_U {
-  display: none;
+    display: none;
 }
 
 .root-22AK9z .joinButton-2KP9ZZ {
@@ -4128,7 +4151,7 @@ content: "#";
     content: ", indem du auf einen Teilen-Button klickst und ihnen den Link schickst.";
 }
 .cardWrapper-2fBdfM:lang(DE):nth-child(2) .card-PQEqCK:before {
-    left: 348px;
+    right: 6.5px;
     top: 9px;
     content: "Teilen-";
 }
@@ -4177,7 +4200,7 @@ content: "#";
     content: " sur ce serveur en cliquant sur un bouton partager lorsque vous êtes prêt.";
 }
 .cardWrapper-2fBdfM:lang(FR):nth-child(2) .card-PQEqCK:before {
-    left: 119.5px;
+    left: 120.5px;
     bottom: 20px;
     content: "partager";
 }
@@ -4199,7 +4222,7 @@ content: "#";
     content: " al server cliccando qui non appena sei pronto.";
 }
 .cardWrapper-2fBdfM:lang(IT):nth-child(2) .card-PQEqCK:before {
-    left: 287px;
+    left: 294.5px;
     top: 9px;
     content: "qui";
 }
@@ -4210,7 +4233,7 @@ content: "#";
     content: " į šį serverį, paspauskite dalintis mygtuką kai būsite pasiruošę.";
 }
 .cardWrapper-2fBdfM:lang(LT):nth-child(2) .card-PQEqCK:before {
-    left: 150px;
+    left: 152px;
     bottom: 20px;
     content: "dalintis mygtuką";
 }
@@ -4243,7 +4266,7 @@ content: "#";
     content: " til denne serveren ved å klikke på en delingsknapp når du er klar.";
 }
 .cardWrapper-2fBdfM:lang(NO):nth-child(2) .card-PQEqCK:before {
-    left: 109px;
+    left: 110px;
     bottom: 20px;
     content: "delingsknapp";
 }
@@ -4266,7 +4289,7 @@ content: "#";
 }
 .cardWrapper-2fBdfM:lang(PT):nth-child(2) .card-PQEqCK:before {
     left: 91px;
-    bottom: 20px;
+    bottom: 42px;
     content: "botão de compartilhar";
 }
 .cardWrapper-2fBdfM:lang(RO):nth-child(2) .cardTextContainer-z6Fq-u:before {
@@ -4276,7 +4299,7 @@ content: "#";
     content: " pe acest server apăsând un buton de distribuire când ești gata.";
 }
 .cardWrapper-2fBdfM:lang(RO):nth-child(2) .card-PQEqCK:before {
-    right: 13.5px;
+    right: 3px;
     margin-top: 9px;
     content: "buton";
 }
@@ -4292,7 +4315,7 @@ content: "#";
     content: " tälle palvelimelle painamalla jaa-painiketta, kun olet valmis.";
 }
 .cardWrapper-2fBdfM:lang(FI):nth-child(2) .card-PQEqCK:before {
-    right: 36px;
+    right: 29px;
     top: 9px;
     content: "jaa-";
 }
@@ -4308,7 +4331,7 @@ content: "#";
     content: " till den här servern genom att klicka på en dela-knapp när du är redo.";
 }
 .cardWrapper-2fBdfM:lang(SV):nth-child(2) .card-PQEqCK:before {
-    left: 148px;
+    left: 150px;
     bottom: 20px;
     content: "dela-knapp";
 }
@@ -4332,7 +4355,7 @@ content: "#";
     content: "arkadaşlarını davet et";
 }
 .cardWrapper-2fBdfM:lang(TR):nth-child(2) .card-PQEqCK:before {
-    left: 178px;
+    left: 179px;
     top: 9px;
     content: "paylaş düğmesi";
 }
@@ -4354,8 +4377,8 @@ content: "#";
     content: " στο διακομιστή κάνοντας κλικ σε ένα κουμπί κοινοποίησης όταν είστε έτοιμοι.";
 }
 .cardWrapper-2fBdfM:lang(EL):nth-child(2) .card-PQEqCK:before {
-    left: 210px;
-    bottom: 20px;
+    left: 205px;
+    bottom: 42px;
     content: "κουμπί κοινοποίησης";
 }
 .cardWrapper-2fBdfM:lang(BG):nth-child(2) .cardTextContainer-z6Fq-u:before {
@@ -4365,8 +4388,8 @@ content: "#";
     content: " в този сървър, като натиснете на бутона за споделяне, когато сте готови.";
 }
 .cardWrapper-2fBdfM:lang(BG):nth-child(2) .card-PQEqCK:before {
-    left: 171.5px;
-    bottom: 20px;
+    left: 162px;
+    bottom: 42px;
     content: "бутона за споделяне";
 }
 .cardWrapper-2fBdfM:lang(RU):nth-child(2) .cardTextContainer-z6Fq-u:before {
@@ -4376,7 +4399,7 @@ content: "#";
     content: " на этот сервер, нажав на кнопку пригласить, когда вы будете готовы.";
 }
 .cardWrapper-2fBdfM:lang(RU):nth-child(2) .card-PQEqCK:before {
-    left: 139px;
+    left: 141px;
     bottom: 20px;
     content: "пригласить";
 }
@@ -4387,8 +4410,8 @@ content: "#";
     content: " на цей сервер, натиснувши на кнопку запросити, коли будете готові.";
 }
 .cardWrapper-2fBdfM:lang(UK):nth-child(2) .card-PQEqCK:before {
-    left: 222px;
-    bottom: 20px;
+    left: 225px;
+    bottom: 42px;
     content: "запросити";
 }
 .cardWrapper-2fBdfM:lang(HI):nth-child(2) .cardTextContainer-z6Fq-u:before {
@@ -4400,7 +4423,7 @@ content: "#";
     content: "को इस सर्वर पर आमंत्रित करें।";
 }
 .cardWrapper-2fBdfM:lang(HI):nth-child(2) .card-PQEqCK:before {
-    left: 174px;
+    left: 159px;
     top: 9px;
     content: "तो शेयर बटन";
 }
@@ -4465,7 +4488,7 @@ content: "#";
     content: "공유 버튼을 눌러보세요.";
 }
 .cardWrapper-2fBdfM:lang(KO):nth-child(2) .card-PQEqCK:before {
-    margin-left: 228px;
+    margin-left: 229px;
     margin-top: 9px;
     content: "공유 버튼";
 }
@@ -4512,7 +4535,7 @@ content: "#";
     content: " with an awesome name and icon to make it unique.";
 }
 .cardWrapper-2fBdfM:lang(EN):nth-child(3) .card-PQEqCK:before {
-    right: 12.5px;
+    right: 7px;
     top: 9px;
     content: "awesome name and";
 }
@@ -6511,11 +6534,15 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 }
 
 /*Message Setttings Menu*/
+.layer-2aCOJ3 [style="absolute"] {
+    width: fit-content;
+    height: fit-contnet;
+}
 #message-actions {
     min-width: 3.8rem;
     background: #18191c;
     margin-top: 20px;
-    left: calc(50% + 16px);
+    left: 0;
     padding: 2px 0;
 }
 .theme-light #message-actions {
@@ -7569,6 +7596,10 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 }
 
 /*Full Screen Profile Popout*/
+.body-_QAKrE {
+    flex: unset;
+    min-height: 384px;
+}
 .userProfileModalOuter-1FYL8T .bannerSVGWrapper-qc0szY {
     display: none;
 }
@@ -7595,6 +7626,11 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 .headerTop-212g15 {
     position: absolute;
     left: 120px;
+    top: 48px;
+}
+.badgeList-2pMvZX {
+    padding: 0;
+    background: transparent;
 }
 .overlayBackground-1KgwVi {
     margin: 0;
@@ -7602,16 +7638,28 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 }
 .container-1U-qVy {
     min-height: 80px;
+    height: fit-content;
     padding: 20px;
     background: var(--play);
 }
-.container-1U-qVy > div {
+.container-1U-qVy .nameTag-2ysfG3 {
     margin-left: 100px;
 }
+.customStatus-3QV7IG {
+    margin-top: 76px;
+}
+.tabBarContainer-2UG0vy {
+    padding: 20px 20px 0;
+    margin: 0;
+    border: 0;
+    border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+.listScroller-XCVa1H,
 .infoScroller-3MqKC5 {
     padding: 0;
     background: var(--background-secondary);
 }
+.divider-1NpGam,
 .infoScroller-3MqKC5::-webkit-scrollbar {
     display: none;
 }
@@ -7621,6 +7669,30 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 }
 .connectedAccounts-1HaiEx {
     width: unset;
+}
+.connectedAccount-2NOwd0 {
+    padding: 4px;
+}
+.listRow-Y5zoF8 {
+    margin: 0;
+    border-radius: 0;
+    padding: 5px 16px 5px 20px;
+    color: #b9bbbe;
+}
+.listRow-Y5zoF8:hover {
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.05) 90%, hsla(0, 0%, 100%, 0));
+}
+.theme-light .listRow-Y5zoF8 {
+    color: #72767d;
+}
+.theme-light .listRow-Y5zoF8:hover {
+    background: linear-gradient(90deg,rgba(185, 187, 190, 0.05) 90%, rgba(185, 187, 190, 0));
+    color: #36393f;
+}
+
+/*Empty Page*/
+.empty-2-ONJW {
+    background-color: var(--background-secondary);
 }
 
 /*Guild Discovery Page*/
@@ -8660,7 +8732,8 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 }
 .profileCardUsernameRow-1bb6fi,
 .sidebar-nqHbhN .container-1gYwHN,
-.userInfo-regn9W .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+.userInfo-regn9W .lookFilled-yCfaCM.colorBrand-I6CyqQ,
+#my-account-tab .badgeList-b3Ajmk {
     display: none;
 }
 .userInfo-regn9W {
@@ -8722,22 +8795,35 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 
 /*Profiles*/
 /*Header*/
-#profile-customization-tab .heading-lg-bold-3uwrwG {
+#profile-customization-tab .heading-lg-semibold-2Z_RS3 {
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase !important;
+    transform: translateY(2px);
 }
-/*Layout*/
-.baseLayout-1_9QRm {
-    flex-direction: column;
+/*Editing Column*/
+.baseLayoutProfileThemes-1Jj-oN {
+    flex-direction: column-reverse;
 }
-.preview-sMYs9f {
+.previewProfileThemes-ViDDkq {
     max-width: unset;
-    order: -1;
 }
-.profileBannerPreview-3mLIdO {
+.previewProfileThemes-ViDDkq .title-1HgbhV {
+    display: none;
+}
+#profile-customization-tab .userPopoutOuter-3AVBmJ {
     width: 100%;
+}
+#profile-customization-tab .userProfileOuterUnthemed-2b2rsv,
+#profile-customization-tab .userPopoutOuter-3AVBmJ .userProfileInner-3F03PX:before,
+#profile-customization-tab .userPopoutOverlayBackground-dKOOda,
+#profile-customization-tab .divider-1tWBgZ {
+    background: transparent;
+    box-shadow: none;
+}
+#profile-customization-tab .bannerSVGWrapper-qc0szY {
+    display: none;
 }
 
 /*Privacy & Safety*/
@@ -9989,7 +10075,7 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --status-green-500: hsl(139,calc(var(--saturation-factor, 1)*85.6%),64.5%);
     --status-green-530: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
     --status-green-560: hsl(139,calc(var(--saturation-factor, 1)*51.6%),52.2%);
-    --status-green-600: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+    --status-green-600: var(--status-green-660);
     --status-green-630: hsl(139,calc(var(--saturation-factor, 1)*47.4%),38%);
     --status-green-660: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
     --status-green-700: hsl(138,calc(var(--saturation-factor, 1)*47%),25.9%);
