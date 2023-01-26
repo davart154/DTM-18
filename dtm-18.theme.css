@@ -781,7 +781,7 @@ mask > use[href$="lower_badge_masks"] {
     8px 8px;
 
     background-repeat: no-repeat;
-    animation: loginDots 150s linear infinite;
+    animation: loginDots 15s linear infinite;
 }
 
 .characterBackground-1BPOOJ .wrapper-1f5byN:after,
@@ -811,7 +811,7 @@ mask > use[href$="lower_badge_masks"] {
     line-height: 32px;
     margin-bottom: 8px;
 }
-.characterBackground-1BPOOJ .title-3FQ39e + .text-md-normal-2rFCH3 {
+.characterBackground-1BPOOJ .title-3FQ39e + .text-md-normal-304U3g {
     color: #72767d !important;
     font-size: 18px;
     font-weight: 400;
@@ -934,7 +934,7 @@ mask > use[href$="lower_badge_masks"] {
     --text-normal: #fff;
     transition: ease-in-out 0.15s;
 }
-.theme-light .homeIcon-r0w4ny {
+.theme-light .guilds-2JjMmN:not(.theme-dark) .homeIcon-r0w4ny {
     --text-normal: #000;
 }
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub .homeIcon-r0w4ny,
@@ -983,7 +983,7 @@ mask > use[href$="lower_badge_masks"] {
     background: #8a8e94;
     transition: background .2s ease;
 }
-.theme-light .item-2LIpTv {
+.theme-light .guilds-2JjMmN:not(.theme-dark) .item-2LIpTv {
     background: #000;
 }
 .item-2LIpTv[style*="height: 40px;"] {
@@ -992,7 +992,7 @@ mask > use[href$="lower_badge_masks"] {
 .listItem-3SmSlK:has(.selected-3c78Ai) .item-2LIpTv {
     background: #fff;
 }
-.theme-light .item-2LIpTv[style*="height: 40px;"] {
+.theme-light .guilds-2JjMmN:not(.theme-dark) .item-2LIpTv[style*="height: 40px;"] {
     background: #000;
 }
 .tutorialContainer-1pL9QS > .listItem-3SmSlK .item-2LIpTv {
@@ -1215,7 +1215,7 @@ img.icon-3AqZ2e {
     border: 1px solid #000;
     
 }
-.theme-light .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+.theme-light .sidebar-1tnWFu:not(.theme-dark) .searchBar-3TnChZ .searchBarComponent-3N7dCG {
     border: 1px solid #d4d6d8;
     --background-tertiary: #e3e5e8;
 }
@@ -1364,6 +1364,7 @@ img.icon-3AqZ2e {
 #guild-header-popout .separator-1So4YB {
     margin: 0;
     background: #f5f5f5;
+    border-color: #f5f5f5;
 }
 .theme-dark #guild-header-popout .separator-1So4YB {
     background: rgba(245, 245, 245, 0.08);
@@ -1929,7 +1930,8 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
     position: relative;
     width: 32px;
 }
-.button-12Fmur.enabled-9OeuTA:hover {
+.button-12Fmur.enabled-9OeuTA:hover,
+.sidebar-1tnWFu.theme-dark .button-12Fmur.enabled-9OeuTA:hover {
     color: var(--interactive-active);
     background-color: #25272a;
 }
@@ -2127,7 +2129,6 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 }
 .container-1Lk8p7 .header-1c1AhF .title-1_TkpU:before {
     font-size: 18px;
-    font-weight: 700;
 }
 :lang(DA) .container-1Lk8p7 .header-1c1AhF .title-1_TkpU:before {
     content: "Åh, endnu en server?";
@@ -2507,7 +2508,7 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
     text-transform: uppercase; 
     color: var(--text-positive);   
 }
-.header-oub2Vc .text-sm-normal-AEQz4v {
+.header-oub2Vc .text-sm-normal-3Zj3Iv {
     margin-top: 24px;
     margin-bottom: 14px;
     font-size: 0;
@@ -2515,10 +2516,10 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
     line-height: 1.2;
     color: hsl(204,calc(var(--saturation-factor, 1)*15.9%),65.5%) !important;
 }
-.header-oub2Vc .text-sm-normal-AEQz4v:before {
+.header-oub2Vc .text-sm-normal-3Zj3Iv:before {
     font-size: 18px;
 }
-:lang(EN) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+:lang(EN) .header-oub2Vc .text-sm-normal-3Zj3Iv:before {
     content: "Enter an Instant Invite below to join an existing server. The invite will look something like these:";
 }
 
@@ -3473,49 +3474,6 @@ content: "#";
 }
 .theme-light #blocked-tab .emptyStateContainer-1NHrfT .image-20MDYu {
     background-image: url(https://discord.com/assets/fed3c2dcbbb79837d568cb8d648c86d6.png) !important;
-}
-
-/*People Wrapper*/
-.peopleColumn-1wMU14 .searchBar-2aylmZ {
-  background: var(--deprecated-text-input-bg);
-  border: solid 1px var(--deprecated-text-input-border);
-  transition: 0.3s border-color;
-  border-radius: 3px;
-}
-.peopleColumn-1wMU14 .searchBar-2aylmZ:hover, .peopleColumn-1wMU14 .searchBar-2aylmZ:active {
-  border-color: var(--deprecated-text-input-border-hover);
-}
-.peopleColumn-1wMU14 .searchBar-2aylmZ:focus, .peopleColumn-1wMU14 .searchBar-2aylmZ:focus-within {
-  border-color: var(--blurple);
-}
-.peopleColumn-1wMU14 .peopleListItem-u6dGxF {
-  border-radius: 3px;
-}
-.peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh, .peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover {
-  background: #414449;
-  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
-}
-.theme-light .peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh, .theme-light .peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover {
-  background: #99aab533;
-}
-.peopleColumn-1wMU14 .peopleListItem-u6dGxF .actionButton-3-B2x- {
-  border-radius: 3px;
-  transition: 0.3s;
-  background: var(--background-secondary-alt);
-}
-.peopleColumn-1wMU14 .peopleListItem-u6dGxF .actionButton-3-B2x-:hover {
-  background: var(--background-tertiary);
-}
-.peopleColumn-1wMU14 .peopleListItem-u6dGxF .actionButton-3-B2x-.actionDeny-1pQVuZ:hover {
-  background: var(--status-danger);
-  color: #fff;
-}
-.peopleColumn-1wMU14 .peopleListItem-u6dGxF .actionButton-3-B2x-.actionAccept-2nmnLv:hover {
-  background: var(--status-positive);
-  color: #fff;
-}
-.actionButton-3-B2x- [d="M4.79805 3C3.80445 3 2.99805 3.8055 2.99805 4.8V15.6C2.99805 16.5936 3.80445 17.4 4.79805 17.4H7.49805V21L11.098 17.4H19.198C20.1925 17.4 20.998 16.5936 20.998 15.6V4.8C20.998 3.8055 20.1925 3 19.198 3H4.79805Z"] {
-    d: path("M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z");
 }
 
 /*setTimeout(function(){debugger;}, 1000)*/
@@ -8129,8 +8087,8 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     background-repeat: no-repeat;
 }
 
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl .text-md-normal-2rFCH3,
-.premiumContainer-3GGa8Q .tier0-17mYUd .item-62htNl .text-md-normal-2rFCH3 {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl .text-md-normal-304U3g,
+.premiumContainer-3GGa8Q .tier0-17mYUd .item-62htNl .text-md-normal-304U3g {
     display: flex;
     flex-direction: column;
     font-size: 0;
@@ -8138,15 +8096,15 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     width: 68%;
     color: var(--header-primary) !important;
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl .text-md-normal-2rFCH3:before,
-.premiumContainer-3GGa8Q .tier0-17mYUd .item-62htNl .text-md-normal-2rFCH3:before {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl .text-md-normal-304U3g:before,
+.premiumContainer-3GGa8Q .tier0-17mYUd .item-62htNl .text-md-normal-304U3g:before {
     font-size: 28px;
     font-weight: 600;
     line-height: 39px;
     margin-top: 8px;
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl .text-md-normal-2rFCH3:after,
-.premiumContainer-3GGa8Q .tier0-17mYUd .item-62htNl .text-md-normal-2rFCH3:after {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl .text-md-normal-304U3g:after,
+.premiumContainer-3GGa8Q .tier0-17mYUd .item-62htNl .text-md-normal-304U3g:after {
     font-size: 16px;
     line-height: 1.5;
     margin-top: 8px;
@@ -8167,34 +8125,34 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 .premiumContainer-3GGa8Q .tier0-17mYUd .wumpusImageContainer-ZGD_8q {
     animation: 70s nitroContent5 ease infinite !important;
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(6) .text-md-normal-2rFCH3:before {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(6) .text-md-normal-304U3g:before {
     content: "Nitro now has games";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(6) .text-md-normal-2rFCH3:after {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(6) .text-md-normal-304U3g:after {
     content: "For a low monthly cost, get unlimited access to a library of in-app games that we think you and your friends should play.";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(5) .text-md-normal-2rFCH3:before {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(5) .text-md-normal-304U3g:before {
     content: "Putt Party";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(5) .text-md-normal-2rFCH3:after {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(5) .text-md-normal-304U3g:after {
     content: "Putt Party puts you head-to-head with up to seven other players and keeps you on your toes with special power-ups. It's golf like you've never seen before!";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(4) .text-md-normal-2rFCH3:before {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(4) .text-md-normal-304U3g:before {
     content: "Sketch Heads";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(4) .text-md-normal-2rFCH3:after {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(4) .text-md-normal-304U3g:after {
     content: "What am I drawing? One player sketches an image while other players compete to guess what it is first.";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(3) .text-md-normal-2rFCH3:before {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(3) .text-md-normal-304U3g:before {
     content: "Chess In The Park";
 }
-.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(3) .text-md-normal-2rFCH3:after {
+.premiumContainer-3GGa8Q .tier2-qNjKTW .item-62htNl:nth-last-child(3) .text-md-normal-304U3g:after {
     content: "The classic board game available right through Discord. Play head to head against others and take down their king before they get yours.";
 }
-.premiumContainer-3GGa8Q .tier0-17mYUd  .item-62htNl:nth-child(3) .text-md-normal-2rFCH3:before {
+.premiumContainer-3GGa8Q .tier0-17mYUd  .item-62htNl:nth-child(3) .text-md-normal-304U3g:before {
     content: "Don't need games?";
 }
-.premiumContainer-3GGa8Q .tier0-17mYUd  .item-62htNl:nth-child(3) .text-md-normal-2rFCH3:after {
+.premiumContainer-3GGa8Q .tier0-17mYUd  .item-62htNl:nth-child(3) .text-md-normal-304U3g:after {
     content: "Subscribe to Nitro Basic, a smaller plan with larger file uploads and custom emoji anywhere.";
 }
 
@@ -8374,8 +8332,6 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     opacity: 1;
 }
 /*Nitro Basic*/
-/*Create Channel*/
-
 
 /*Settings*/
 /*Main Settings*/
@@ -8387,10 +8343,7 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 .side-2ur1Qk .item-3XjbnG svg {
     display: none;
 }
-.sidebar-nqHbhN .side-2ur1Qk > .selected-g-kMVV.item-3XjbnG,
-.selected-g-kMVV.item-3XjbnG:hover,
-.selected-g-kMVV.item-3XjbnG .premiumLabel-3HPvdB,
-.selected-g-kMVV.item-3XjbnG:hover .premiumLabel-3HPvdB {
+.sidebar-nqHbhN .side-2ur1Qk > .selected-g-kMVV.item-3XjbnG, .selected-g-kMVV.item-3XjbnG:hover, .selected-g-kMVV.item-3XjbnG .premiumLabel-3HPvdB, .selected-g-kMVV.item-3XjbnG:hover .premiumLabel-3HPvdB {
     color: #fff;
 }
 .sidebar-nqHbhN .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
@@ -8434,16 +8387,12 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     background-color: var(--brand-experiment-10a);
 }
 /*Log Out and Delete Server Buttons*/
-:lang(DA) .side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Log ud"],
-:lang(DE) .side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Abmelden"],
-:lang(EN) .side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Log Out"],
-:lang(EN) .side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Delete Server"] {
+.side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Log Out"],
+.side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Delete Server"] {
     color: var(--status-red-530);
 }
-:lang(DA) .side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Log ud"]:hover,
-:lang(DE) .side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Abmelden"]:hover,
-:lang(EN) .side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Log Out"]:hover,
-:lang(EN) .side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Delete Server"]:hover {
+.side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Log Out"]:hover,
+.side-2ur1Qk .themed-2-lozF.item-3XjbnG[aria-label="Delete Server"]:hover {
     background-color: var(--status-red-10a);
 }
 
@@ -8593,11 +8542,7 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 .item-2idW98 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"] {
     --radio-bar-accent-color: var(--button-danger-background) !important ;
 }
-.radioBar-3w9XY- .text-sm-normal-AEQz4v {
-    color: var(--text-muted)
-}
-.item-2idW98[aria-checked=true],
-.item-2idW98[aria-checked=true] .radioBar-3w9XY- .text-sm-normal-AEQz4v {
+.item-2idW98[aria-checked=true] {
     color: #fff !important;
 }
 .item-2idW98[aria-checked=true] .radioBar-3w9XY- {
@@ -8707,31 +8652,6 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 }
 .container-2nx-BQ .input-2XRLou svg {
   display: none;
-}
-
-/*Keyboard Box*/
-.key-N5VmHN {
-    background-color: #72767d;
-    border: 1px solid #202225;
-    border-radius: 0;
-    box-shadow: inset 0 -4px 0 rgba(35, 39, 42, 0.6);
-    color: #f6f6f7 !important;
-}
-.key-N5VmHN:active {
-    border-color: #000 !important;
-    box-shadow: inset 0 -2px 0 #242629;
-    color: #c5c5c6 !important;
-}
-.theme-light .key-N5VmHN {
-    background-color: #fff;
-    border-color: #95989d !important;
-    box-shadow: inset 0 -4px 0 #caccce;
-    color: #4f545c !important;
-}
-.theme-light .key-N5VmHN:active {
-    border-color: #000;
-    box-shadow: inset 0 -2px 0 #caccce;
-    color: #000 !important;
 }
 
 /*bd On Off Toggle*/
@@ -8851,10 +8771,10 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 .field-21XZwa .h5-2RwDNl {
     color: var(--text-muted);
 }
-.field-21XZwa.text-md-normal-2rFCH3:nth-child(1) {
+.field-21XZwa .text-md-normal-304U3g:nth-child(1) {
     color: var(--text-normal) !important;
 }
-.usernameInnerRow-1-STdK .text-md-normal-2rFCH3:nth-child(2) {
+.usernameInnerRow-1-STdK .text-md-normal-304U3g:nth-child(2) {
     color: var(--text-muted) !important;
 }
 .field-21XZwa .lookFilled-yCfaCM.colorPrimary-2AuQVo {
@@ -8877,17 +8797,40 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 
 /*Profiles*/
 /*Header*/
-#profile-customization-tab .heading-lg-semibold-14ouVv {
+#profile-customization-tab .heading-lg-semibold-2Z_RS3 {
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase !important;
     transform: translateY(2px);
 }
+/*Editing Column*/
+.baseLayoutProfileThemes-1Jj-oN {
+    flex-direction: column-reverse;
+}
+.previewProfileThemes-ViDDkq {
+    max-width: unset;
+}
+.previewProfileThemes-ViDDkq .title-1HgbhV {
+    display: none;
+}
+#profile-customization-tab .userPopoutOuter-3AVBmJ {
+    width: 100%;
+}
+#profile-customization-tab .userProfileOuterUnthemed-2b2rsv,
+#profile-customization-tab .userPopoutOuter-3AVBmJ .userProfileInner-3F03PX:before,
+#profile-customization-tab .userPopoutOverlayBackground-dKOOda,
+#profile-customization-tab .divider-1tWBgZ {
+    background: transparent;
+    box-shadow: none;
+}
+#profile-customization-tab .bannerSVGWrapper-qc0szY {
+    display: none;
+}
 
 /*Privacy & Safety*/
 /*Radio Bar*/
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="var"] .text-md-medium-2n7Vn5 {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="var"] .text-md-medium-2avxhQ {
     color: var(--radio-bar-accent-color);
 }
 [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="yellow"] {
@@ -8896,198 +8839,198 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] {
     --radio-bar-accent-color: var(--info-danger-foreground) !important;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5 {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ {
     font-size: 0;
     line-height: unset;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv {
     font-size: 0;
     line-height: unset;
 }
-[id="privacy-&-safety-tab"] .item-2idW98[aria-checked="true"] .radioBar-3w9XY- .text-md-medium-2n7Vn5 {
+[id="privacy-&-safety-tab"] .item-2idW98[aria-checked="true"] .radioBar-3w9XY- .text-md-medium-2avxhQ {
     color: #fff;
 }
 /*Do not scan Text Replacement*/
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     font-size: 16px;
     line-height: 20px;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     font-size: 14px;
     line-height: 18px;
 }
-:lang(DA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(DA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Jeg bor på kanten";
 }
-:lang(DA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(DA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Slå dette fra. Scan ikke noget. Gå direkte til den mørke side.";
 }
-:lang(DE) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(DE) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Ich lebe am Limit";
 }
-:lang(DE) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(DE) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
 }
-:lang(EN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(EN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "I live on the edge";
 }
-:lang(EN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(EN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Turn this off. Don't scan anything. Go straight to the dark side.";
 }
-:lang(ES) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(ES) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Vivo al límite";
 }
-:lang(ES) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(ES) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Desactiva esto. No compruebes nada. Ve directo al lado oscuro.";
 }
-:lang(FR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(FR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Je vis dangereusement";
 }
-:lang(FR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(FR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Désactiver cette option. Ne rien analyser. Allons tout droit vers le côté obscur.";
 }
-:lang(HR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(HR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Živim na rubu";
 }
-:lang(HR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(HR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Ugasi ovo. Nemoj ništa skenirati. Idi ravno na mračnu stranu.";
 }
-:lang(IT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(IT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Mi piace rischiare";
 }
-:lang(IT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(IT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Disattiva del tutto il controllo dei messaggi diretti. Da grandi rischi derivano grandi responsabilità.";
 }
-:lang(LT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(LT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Aš gyvenu ant krašto";
 }
-:lang(LT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(LT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Išjunk. Nieko neskenuok. Eik tiesiai į tamsiąją pusę.";
 }
-:lang(HU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(HU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Veszélyesen élek";
 }
-:lang(HU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(HU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Kapcsold ki. Ne ellenőrizz semmit. Állj át a sötét oldalra.";
 }
-:lang(NL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(NL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Ik woon aan de rand";
 }
-:lang(NL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(NL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Schakel dit uit. Scan niets. Ga direct naar de donkere kant.";
 }
-:lang(NO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(NO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Jeg bor på kanten";
 }
-:lang(NO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(NO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Slå av dette. Ikke skann noe. Gå rett til den mørke siden.";
 }
-:lang(PL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(PL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Żyję na krawędzi";
 }
-:lang(PL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(PL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Wyłącz to. Nic nie skanuj. Przejdź prosto na ciemną stronę mocy.";
 }
-:lang(PT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(PT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Eu sou vida louca";
 }
-:lang(PT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(PT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Desative isso. Não analise nada. Vá direto para o lado negro da força.";
 }
-:lang(RO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(RO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Trăiesc la limită";
 }
-:lang(RO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(RO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Oprește-l. Nu scana nimic. Du-te direct de partea răului.";
 }
-:lang(FI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(FI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Olen reunalla eläjä";
 }
-:lang(FI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(FI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Kytke tämä pois. Älä tarkista mitään. Siirry pimeälle puolelle.";
 }
-:lang(SV) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(SV) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Jag gillar att leva farligt";
 }
-:lang(SV) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(SV) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Inaktivera detta. Skanna ingenting. Gå över till den mörka sidan.";
 }
-:lang(VI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(VI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Tôi thuộc kiểu ưa phiêu lưu";
 }
-:lang(VI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(VI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Tắt tính năng này. Không quét gì cả. Đi thẳng đến mặt tối.";
 }
-:lang(TR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(TR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Tehlike içinde yaşıyorum";
 }
-:lang(TR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(TR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Bunu kapat. Hiçbir şeyi tarama. Direkt karanlık tarafa geç.";
 }
-:lang(CS) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(CS) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Bydlím na okraji";
 }
-:lang(CS) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(CS) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Vypněte to. Nic neskenujte. Jděte přímo na temnou stranu.";
 }
-:lang(EL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(EL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Ζω στα άκρα";
 }
-:lang(EL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(EL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Απενεργοποίησέ το. Μην ελέγχεις τίποτα. Πήγαινε κατευθείαν στη σκοτεινή πλευρά.";
 }
-:lang(BG) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(BG) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Живея на ръба";
 }
-:lang(BG) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(BG) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Изключете това. Не сканирайте нищо. Отидете направо на тъмната страна.";
 }
-:lang(RU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(RU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Я рисковый человек";
 }
-:lang(RU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(RU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Выключите это. Не надо ничего проверять. Отправляюсь на темную сторону.";
 }
-:lang(UK) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(UK) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "Я ризикова людина";
 }
-:lang(UK) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(UK) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "Вимкніть це. Не треба нічого перевіряти. Відправляюсь на темну сторону.";
 }
-:lang(HI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(HI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "मैं किनारे पर रहता हूँ";
 }
-:lang(HI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(HI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "इसे बंद कर दें। कुछ भी स्कैन न करें। सीधे डार्क साइड पर जाएं।";
 }
-:lang(TH) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(TH) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "ฉันชอบความท้าทาย";
 }
-:lang(TH) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(TH) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "ไม่ต้องคัดกรองข้อความใดๆทั้งสิ้น มุ่งหน้าสู่ด้านมืด!";
 }
-:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "我活在社会边缘";
 }
-:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "关闭此功能。不扫描任何东西。直走到黑暗的一面。";
 }
-:lang(JA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(JA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "そんなの平気さ";
 }
-:lang(JA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(JA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "機能をオフにします。一切スキャンしません。闇に堕ちるがいい。";
 }
-:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "我活在社會邊緣";
 }
-:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "關閉此功能。 不掃描任何東西。 直到黑暗的那一邊。";
 }
-:lang(KO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(KO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2avxhQ:before {
     content: "나는 가장자리에 산다";
 }
-:lang(KO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(KO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-3Zj3Iv:before {
     content: "이 기능을 끕니다. 아무것도 스캔하지 마십시오. 어두운 면으로 바로 가십시오.";
 }
 /*Request Data Button*/
@@ -9212,216 +9155,6 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     background-image: url(https://discord.com/assets/fffa18d6d66a76c08c500c56afe68a62.svg) !important;
 }
 
-.connection-YOVI9j {
-    overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
-}
-.connection-YOVI9j .defaultColor-24IHKz.text-sm-semibold-3TWn25,
-.connection-YOVI9j .connectionAccountValue-YkFI6F .connectionAccountLabelContainer-1KuLS6 {
-    font-size: 16px;
-    margin-top: 4px;
-    color: #fff;
-    font-weight: 400;
-}
-.connection-YOVI9j .metadataContainer-35U-On,
-.connection-YOVI9j .upsellWrapper-2jvKpl {
-    position: relative;
-    z-index: 10;
-    background: #0004;
-    border: solid 1px #0004;
-    border-radius: 3px;
-}
-.connection-YOVI9j .upsellWrapper-2jvKpl {
-    border-radius: 0;
-    border-left: 0;
-    border-right: 0;
-}
-.connection-YOVI9j .metadataContainer-35U-On .connectedAccountVanityMetadataTag-19Al5z {
-    border-radius: 3px;
-    background: none;
-    border: solid 1px #fff3;
-}
-.connection-YOVI9j .metadataContainer-35U-On .connectedAccountVanityMetadata-38KAgN, .connection-YOVI9j .metadataContainer-35U-On .text-xs-normal-3SiVjE {
-    color: #fff !important;
-}
-.connection-YOVI9j button {
-    background: #fff !important;
-    color: var(--brand-experiment) !important;
-    transition: 0.2s;
-}
-.connection-YOVI9j .metadataContainer-35U-On .metadataRefreshButton-3G6ilH:hover:not(:disabled), .connection-YOVI9j .metadataContainer-35U-On .metadataRefreshButton-3G6ilH:active:not(:disabled) {
-    opacity: 0.9;
-}
-.connection-YOVI9j .connectionAccountValue-YkFI6F {
-    color: #fff;
-}
-.connection-YOVI9j .subEnabledTitle-2YpsZq {
-    position: relative;
-    color: #fff;
-}
-.connection-YOVI9j .slider-32CRPX {
-    display: none;
-}
-.connection-YOVI9j .integration-1f5IUi {
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: relative;
-    padding: 10px;
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s {
-  background: #0000;
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s:after {
-  content: "";
-  position: absolute;
-  width: 660px;
-  height: 73px;
-  background: rgba(0, 0, 0, 0.1);
-  border-bottom: solid 1px rgba(0, 0, 0, 0.15);
-  pointer-events: none;
-}
-.connection-YOVI9j .connectionOptionsWrapper-3aVWcp *, .connection-YOVI9j .connectionDelete-3YgMVq, .connection-YOVI9j .integrationsWrapper-3a2pGd, .connection-YOVI9j .integrationsWrapper-3a2pGd *, .connection-YOVI9j .connectedAccountSeparator-2gWsUP {
-  z-index: 50;
-}
-.connection-YOVI9j .connectedAccountSeparator-nMsSRO {
-  position: relative;
-  border-top-color: rgba(114, 118, 126, 0.3);
-}
-.connection-YOVI9j .connectionOptionSwitch-y1S-cR {
-  margin-top: 2px;
-}
-.connection-YOVI9j .connectionOptionSwitch-y1S-cR .title-2dsDLn {
-  font-weight: 400;
-}
-.connection-YOVI9j .connectionOptionSwitch-y1S-cR .title-2dsDLn .defaultColor-1EVLSt {
-  color: #fffd !important;
-  font-weight: 400 !important;
-}
-.connection-YOVI9j .integrationsWrapper-1V-5L9 .subEnabledTitle-2YpsZq {
-  opacity: 0.75;
-  letter-spacing: 0.5px;
-}
-.connection-YOVI9j .integrationsWrapper-1V-5L9 > .colorStandard-1Xxp1s + div:not([style]) {
-  display: flex;
-  grid-gap: 8px 16px;
-  flex-flow: wrap;
-}
-.connection-YOVI9j .integration-1qC-fv {
-  z-index: 999;
-  width: calc(50% - 8px);
-  position: relative;
-  background: #0000001a;
-  border: 1px solid #0000004d;
-  border-radius: 3px;
-  padding: 10px;
-}
-.connection-YOVI9j .integration-1qC-fv .button-f2h6uQ.lookFilled-yCfaCM {
-  border: solid 1px #0000004d;
-  background: var(--twitch);
-  padding: 5px 16px;
-  min-height: 0px;
-  height: auto;
-  min-width: 0px;
-}
-.connection-YOVI9j .connectionDelete-3YgMVq {
-  width: 32px;
-  height: 32px;
-  border: solid 1px rgba(255, 255, 255, 0.3);
-  border-radius: 3px;
-}
-.connection-YOVI9j .connectionDelete-3YgMVq > svg {
-  position: relative;
-  top: 6px;
-  left: 6px;
-}
-.connection-YOVI9j .connectionDelete-3YgMVq > svg path {
-  fill: #fff;
-  transform: scale(1.1);
-}
-.connection-YOVI9j .container-2nx-BQ {
-  background: none !important;
-}
-.connection-YOVI9j .container-2nx-BQ .input-2XRLou:before {
-  background: #0000;
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2);
-}
-.connection-YOVI9j .container-2nx-BQ .input-2XRLou:checked:before {
-  background: rgba(255, 255, 255, 0.3);
-  box-shadow: none;
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt] {
-  margin: -572px -610px -4500px -16px;
-  padding: 2000px 330px;
-  background-color: var(--brand-experiment);
-  background-repeat: no-repeat;
-  background-size: 32px 32px;
-  background-position: 20px 20px;
-  border-radius: 5px;
-  pointer-events: none;
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Battle.net"] {
-  background-color: #009AE5;
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763309125742/3a257c4cab129e956b05bd50047eb0f9.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=GitHub] {
-  background-color: #191717;
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763602739321/9e2893717851c493b4bff518f8b63ee7.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Reddit] {
-  background-color: #5f99cf;
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763938275428/bcc7bc0c0b27f9cbadaa1a47ea79db22.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Spotify] {
-  background-color: var(--spotify-460);
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764324167770/fe3770614c2658a07dea3ecb286ce745.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Steam] {
-  background-color: #182332;
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764575805510/baf4bdd36b7ef74e8f34b402e66f81f4.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Twitch] {
-  background-color: var(--twitch-460);
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532037541109810/4c1bab3f945269a5c1be0b3a2c177141.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Twitter] {
-  background-color: #1DA1F2;
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532038363217970/2ac50d286a1c883f28b5149239a8ad36.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Xbox] {
-  background-color: var(--xbox-460);
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039139147826/850ed4fcf5839b7a32651f5959e8511e.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=YouTube] {
-  background-color: var(--youtube-460);
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039340466276/0ef81742942677bcef0bebdfb7061d29.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Skype] {
-  background-color: #009dd7;
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039642452048/de5fb9e860729912c65048c1c657e1a3.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt="League of Legends"] {
-  background-color: #ae914b;
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208224112750/fbbd224a0d94747c102515090682bbe1.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Facebook] {
-  background-color: #3d4e84;
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208530325534/c926e69c482dac25b8e940db74496813.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt="PlayStation Network"] {
-  background-color: var(--playstation-460);
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/931884586940657664/4282c3f55c9c6d0c310ebc927d8a278c.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Epic Games"] {
-  background-color: #3C3935;
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/992547546570428466/db9e2406158133f91e1fe24bb56425c2.svg);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Riot Games"] {
-  background-color: #af1924;
-  background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/1007053668836720710/991f3682123857c83ad3252a30023b1a.svg);
-}
-
 /*Nitro Tab*/
 #discord-nitro-tab {
     background-image: url(https://discord.com/assets/00be7f6ca68f1915a80ae01f061718e5.svg);
@@ -9434,7 +9167,7 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     background: none;
     height: unset;
 }
-#discord-nitro-tab .display-md-2bKx-c {
+#discord-nitro-tab .display-md-3I4dlu {
     margin-top: 0;
     font-family: var(--font-display);
     color: var(--header-primary);
@@ -9843,26 +9576,26 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 #appearance-tab .cardPrimaryOutline-1ofwVz {
     border-color: rgba(32, 34, 37, 0.6);
 }
-#appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(2) .text-md-medium-2n7Vn5 {
+#appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(2) .text-md-medium-2avxhQ {
     font-size: 0;
     line-height: 0;
     display: flex;
     flex-direction: column;
 }
-#appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(2) .text-md-medium-2n7Vn5:before {
+#appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(2) .text-md-medium-2avxhQ:before {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 5px;
     content: "The theme that nearly nobody uses"
 }
-#appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(2) .text-md-medium-2n7Vn5:after {
+#appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(2) .text-md-medium-2avxhQ:after {
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
     color: var(--text-muted);
     content: "This one's unfinished lol."
 }
-#appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(2)[aria-checked="true"] .text-md-medium-2n7Vn5:after {
+#appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(2)[aria-checked="true"] .text-md-medium-2avxhQ:after {
     color: #fff;
 }
 
@@ -9916,15 +9649,12 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     transform: none;
 }
 
-/*Keybinds Tab*/
-
-
 /*Language Tab*/
 /*Radio Bar*/
-#language-tab .item-2idW98 {
+.layer-86YKbF:not(.baseLayer-W6S8cY) [role=tabpanel][id=language-tab] .item-2idW98 {
     margin: 0;
 }
-#language-tab .item-2idW98 .radioBar-3w9XY- {
+.layer-86YKbF:not(.baseLayer-W6S8cY) [role=tabpanel][id=language-tab] .item-2idW98 .radioBar-3w9XY- {
     background: none;
     border: none;
     border-radius: 0;
@@ -9932,35 +9662,32 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     padding: 16px 10px !important;
     grid-gap: 10px;
 }
-#language-tab .item-2idW98 .radioBar-3w9XY- .option-1YIfI9 {
+.layer-86YKbF:not(.baseLayer-W6S8cY) [role=tabpanel][id=language-tab] .item-2idW98 .radioBar-3w9XY- .option-1YIfI9 {
     font-weight: 400;
 }
-#language-tab .item-2idW98:first-of-type .radioBar-3w9XY- {
+.layer-86YKbF:not(.baseLayer-W6S8cY) [role=tabpanel][id=language-tab] .item-2idW98:first-of-type .radioBar-3w9XY- {
     border-top: none;
 }
-#language-tab .item-2idW98 div > svg {
+.layer-86YKbF:not(.baseLayer-W6S8cY) [role=tabpanel][id=language-tab] .item-2idW98 div > svg {
     background-color: var(--status-green-660);
     border-radius: 50px;
     margin-left: 0px;
 }
-#language-tab .item-2idW98 div > svg > path {
+.layer-86YKbF:not(.baseLayer-W6S8cY) [role=tabpanel][id=language-tab] .item-2idW98 div > svg > path {
     fill: none;
     stroke: #fff;
 }
-#language-tab .item-2idW98[aria-checked=false] svg {
+.layer-86YKbF:not(.baseLayer-W6S8cY) [role=tabpanel][id=language-tab] .item-2idW98[aria-checked=false] svg {
     background: none;
     border: solid 1px var(--background-accent);
     margin-left: -45px !important;
     opacity: 0 !important;
     transition: 0.2s;
 }
-#language-tab .item-2idW98[aria-checked=false] svg path {
+.layer-86YKbF:not(.baseLayer-W6S8cY) [role=tabpanel][id=language-tab] .item-2idW98[aria-checked=false] svg path {
     display: none;
 }
-#language-tab .item-2idW98[aria-checked=true] {
-    color: var(--interactive-active) !important;
-}
-#language-tab .item-2idW98:hover svg {
+.layer-86YKbF:not(.baseLayer-W6S8cY) [role=tabpanel][id=language-tab] .item-2idW98:hover svg {
     margin-left: 0 !important;
     opacity: 1 !important;
 }
@@ -10873,7 +10600,7 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --radio-bar-accent-color: #43b581 !important;
 }
 .radioBar-3w9XY-[style="--radio-bar-accent-color:var(--status-yellow-560); padding: 10px;"] {
-    --info-warning-foreground: #faa61a !important;
+    --radio-bar-accent-color: #faa61a !important;
 }
 .radioBar-3w9XY-[style="--radio-bar-accent-color:var(--status-red-500); padding: 10px;"] {
     --radio-bar-accent-color: #f04747 !important;
