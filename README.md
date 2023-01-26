@@ -6,3 +6,4 @@ Does its best to bring back the 2018 Discord style.
 
 ## Coming soon:
 - idk maybe i get it out of beta lol
+- finish this description
