@@ -2491,8 +2491,8 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 }
 
 /*Join Server Card*/
-.inputForm-3RoxXV .h5-2RwDNl,
-.examplesForm-N_P087 .h5-2RwDNl,
+.inputForm-3RoxXV .h5-2feg8J,
+.examplesForm-N_P087 .h5-2feg8J,
 .rowContainer-3t7486 {
     display: none;
 }
@@ -2559,7 +2559,7 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
 .layer-1Ixpg3 .theme-light .container-1Lk8p7 .input-m1-Y7Q {
     background: transparent;
 }
-.layer-1Ixpg3 .theme-light .container-1Lk8p7 .input-m1-Y7Q .input-2g-os5 {
+.layer-1Ixpg3 .theme-light .container-1Lk8p7 .input-m1-Y7Q .input-3O04eu {
     background: transparent;
     border: 0;
     border-radius: 0;
@@ -2568,19 +2568,19 @@ img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
     font-weight: 400;
     transition: border .15s ease;
 }
-.layer-1Ixpg3 .theme-light .container-1Lk8p7 .input-m1-Y7Q .input-2g-os5:hover {
+.layer-1Ixpg3 .theme-light .container-1Lk8p7 .input-m1-Y7Q .input-3O04eu:hover {
     border-color: #b9bbbe;
 }
-.layer-1Ixpg3 .theme-light .container-1Lk8p7 .input-m1-Y7Q .input-2g-os5:focus {
+.layer-1Ixpg3 .theme-light .container-1Lk8p7 .input-m1-Y7Q .input-3O04eu:focus {
     border-color: var(--brand-experiment);
 }
-.layer-1Ixpg3 .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-Y7Q .input-2g-os5 {
+.layer-1Ixpg3 .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-Y7Q .input-3O04eu {
     color: var(--text-danger);
 }
-.layer-1Ixpg3 .theme-light .container-1Lk8p7 .input-2g-os5::placeholder {
+.layer-1Ixpg3 .theme-light .container-1Lk8p7 .input-3O04eu::placeholder {
     font-size: 0;
 }
-.layer-1Ixpg3 .theme-light .container-1Lk8p7 .inputWrapper-1YNMmM:after {
+.layer-1Ixpg3 .theme-light .container-1Lk8p7 .inputWrapper-2K8ds1:after {
     width: fit-content;
     margin-top: 4px;
     font-size: 11px;
@@ -6043,7 +6043,7 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     background-color: rgba(246,246,247,.6);
     border-color: rgba(220,221,222,.3);
 }
-.wrapper-1HIH0j .h5-2RwDNl {
+.wrapper-1HIH0j .h5-2feg8J {
     margin-bottom: 8px;
 }
 .wrapper-1HIH0j .headerLine-2AIsUj {
@@ -8457,14 +8457,14 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 
 /*General Text*/
 /*Primary Header*/
-.h1-34Txb0 {
+.h1-3iMExa {
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase !important;
 }
 /*Secondary Header*/
-.h5-2RwDNl {
+.h5-2feg8J {
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
@@ -8480,7 +8480,6 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 /*ESC Text*/
 #app-mount .keybind-13vtq8 {
     color: var(--button-secondary-background-active);
-    background: none;
 }
 /*ESC Button*/
 .closeButton-PCZcma {
@@ -8491,9 +8490,8 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     transform: scale(2);
     fill: var(--interactive-hover);
 }
-.closeButton-PCZcma:hover,
-.closeButton-PCZcma:hover+.keybind-13vtq8 {
-    background-color: var(--background-modifier-hover);
+.closeButton-PCZcma:hover {
+    background-color: var(--background-modifier-accent);
 }
 
 /*Save Changes Bar*/
@@ -8508,114 +8506,108 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 .input-2yCVqe {
     background-color: transparent !important;
 }
-.contentRegion-3HkfJJ .input-2g-os5,
-.layer-1Ixpg3 .focusLock-2tveLW .input-2g-os5,
+.contentRegion-3HkfJJ .input-3O04eu,
+.layer-1Ixpg3 .focusLock-2tveLW .input-3O04eu,
 .phoneField-3NAPDv,
 .copyInputDefault-3jiMHw {
     background-color: rgba(0,0,0,.1);
     border: 1px solid rgba(0,0,0,.3);
     transition: .15s ease;
 }
-.contentRegion-3HkfJJ .input-2g-os5:hover,
+.contentRegion-3HkfJJ .input-3O04eu:hover,
 .layer-1Ixpg3 > div:not(.theme-light) .focusLock-2tveLW .copyInputDefault-3jiMHw:hover,
 .phoneField-3NAPDv:hover {
     border-color: rgba(0,0,0,1);
 }
-.theme-light .contentRegion-3HkfJJ .input-2g-os5,
-.layer-1Ixpg3 > :not(.theme-light) .focusLock-2tveLW .input-2g-os5,
+.theme-light .contentRegion-3HkfJJ .input-3O04eu,
+.layer-1Ixpg3 > :not(.theme-light) .focusLock-2tveLW .input-3O04eu,
 .theme-light .copyInputDefault-3jiMHw {
     background-color: rgba(79, 84, 92, 0.02);
     border-color: rgba(79, 84, 92, 0.3);
 }
-.theme-light .input-2g-os5:hover,
-.layer-1Ixpg3 > :not(.theme-light) .focusLock-2tveLW .input-2g-os5:hover,
+.theme-light .input-3O04eu:hover,
+.layer-1Ixpg3 > :not(.theme-light) .focusLock-2tveLW .input-3O04eu:hover,
 .theme-light .copyInputDefault-3jiMHw:hover {
     border-color: #b9bbbe;
 }
-.contentRegion-3HkfJJ .input-2g-os5:focus,
-.layer-1Ixpg3 > div:not(.theme-light) .focusLock-2tveLW .input-2g-os5:focus {
+.contentRegion-3HkfJJ .input-3O04eu:focus,
+.layer-1Ixpg3 > div:not(.theme-light) .focusLock-2tveLW .input-3O04eu:focus {
     border-color: var(--brand-experiment);
 }
 
 /*Dropdown Box*/
-.lookFilled-1GseHa.select-1Ia3hD {
+.lookFilled-GPyucw.select-Zz0IcO {
     background-color: rgba(0,0,0,.1);
     border: 1px solid rgba(0,0,0,.3);
     transition: .15s ease;
 }
-.lookFilled-1GseHa.select-1Ia3hD:hover,
-.open-1FRZsK.lookFilled-1GseHa {
+.lookFilled-GPyucw.select-Zz0IcO:hover,
+.open-LeyjhI.lookFilled-GPyucw {
     border-color: rgba(0,0,0,1);
 }
-.theme-light .lookFilled-1GseHa.select-1Ia3hD {
+.theme-light .lookFilled-GPyucw.select-Zz0IcO {
     background-color: rgba(79, 84, 92, 0.02);
     border-color: rgba(79, 84, 92, 0.3);
 }
-.theme-light .lookFilled-1GseHa.select-1Ia3hD:hover,
-.theme-light .open-1FRZsK.lookFilled-1GseHa {
+.theme-light .lookFilled-GPyucw.select-Zz0IcO:hover,
+.theme-light .open-LeyjhI.lookFilled-GPyucw {
     border-color: #b9bbbe;
 }
 
 /*Radio Bar*/
-.item-2idW98 {
+.item-1TA5qI {
     color: var(--interactive-active) !important;
     background: #0000 !important;
 }
-.item-2idW98 .title-1yyp9V {
+.item-1TA5qI .title-1yyp9V {
     font-weight: 500;
 }
-.item-2idW98[aria-checked=false] .title-1yyp9V {
+.item-1TA5qI[aria-checked=false] .title-1yyp9V {
     color: var(--radio-bar-accent-color);
 }
-.item-2idW98 .radioBar-3w9XY- {
+.item-1TA5qI .radioBar-1XgZqD {
     border: solid 1px var(--background-tertiary);
     background: var(--deprecated-card-editable-bg);
     grid-gap: 10px;
     --radio-bar-accent-color: var(--interactive-active);
     border-radius: 3px;
 }
-.item-2idW98 .radioBar-3w9XY- > div:not([class*="-"]) {
+.item-1TA5qI .radioBar-1XgZqD > div:not([class*="-"]) {
     justify-content: flex-start;
     align-self: flex-start;
     height: 24px;
 }
-.item-2idW98 .radioBar-3w9XY- > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
+.item-1TA5qI .radioBar-1XgZqD > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
     d: path("");
 }
-.item-2idW98 .radioBar-3w9XY- circle {
+.item-1TA5qI .radioBar-1XgZqD circle {
     display: none;
 }
-.item-2idW98 .radioBar-3w9XY- > div:not([class*="-"]) > svg:not(.icon-NDLBMG) {
+.item-1TA5qI .radioBar-1XgZqD > div:not([class*="-"]) > svg:not(.icon-NDLBMG) {
     border: 1px solid hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
     border-radius: 3px;
 }
-.item-2idW98 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"] {
+.item-1TA5qI .radioBar-1XgZqD[style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"] {
     --radio-bar-accent-color: var(--button-positive-background) !important ;
 }
-.item-2idW98 .radioBar-3w9XY-[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"] {
+.item-1TA5qI .radioBar-1XgZqD[style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"] {
     --radio-bar-accent-color: var(--button-danger-background) !important ;
 }
-.radioBar-3w9XY- .text-sm-normal-AEQz4v {
-    color: var(--text-muted)
-}
-.item-2idW98[aria-checked=true],
-.item-2idW98[aria-checked=true] .radioBar-3w9XY- .text-sm-normal-AEQz4v {
-    color: #fff !important;
-}
-.item-2idW98[aria-checked=true] .radioBar-3w9XY- {
+.item-1TA5qI[aria-checked=true] .radioBar-1XgZqD {
     --radio-bar-accent-color: var(--brand-experiment);
     background-color: var(--radio-bar-accent-color);
     border-color: var(--radio-bar-accent-color);
 }
-.item-2idW98[aria-checked=true] .radioBar-3w9XY- .colorHeaderSecondary-g5teka, .item-2idW98[aria-checked=true] .radioBar-3w9XY- .colorStandard-21JIj7 {
+.item-1TA5qI[aria-checked=true] .radioBar-1XgZqD .colorHeaderSecondary-g5teka,
+.item-2idW98[aria-checked=true] .radioBar-1XgZqD .colorStandard-21JIj7 {
     color: #fff;
 }
-.item-2idW98[aria-checked=true] .radioBar-3w9XY- > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
+.item-1TA5qI[aria-checked=true] .radioBar-1XgZqD > div:not([class*="-"]) > svg:not(.icon-NDLBMG) > path {
     d: path("M5.85 12.45 9.7 16.3 18.5 7.5");
     stroke: var(--radio-bar-accent-color);
     stroke-width: 2.2;
 }
-.item-2idW98[aria-checked=true] .radioBar-3w9XY- > div:not([class*="-"]) > svg:not(.icon-NDLBMG) {
+.item-1TA5qI[aria-checked=true] .radioBar-1XgZqD > div:not([class*="-"]) > svg:not(.icon-NDLBMG) {
     border: 0;
     border-radius: 2px;
     margin-right: 2px;
@@ -8624,39 +8616,44 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     transform: translate(1px, 1px);
     background-color: #fff;
 }
-.item-2idW98[aria-checked=false] .radioBar-3w9XY- .size14-3fJ-ot {
+.item-1TA5qI[aria-checked=false] .radioBar-1XgZqD .size14-3fJ-ot {
     color: var(--interactive-normal);
 }
-.theme-dark .item-2idW98[aria-checked=false] .radioBar-3w9XY-:hover {
+.theme-dark .item-1TA5qI[aria-checked=false] .radioBar-1XgZqD:hover {
     border-color: #000;
     background: rgba(0, 0, 0, 0.2);
 }
-.theme-light .item-2idW98[aria-checked=false] .radioBar-3w9XY-:hover {
+.theme-light .item-1TA5qI[aria-checked=false] .radioBar-1XgZqD:hover {
     border-color: #b9bbbe;
     background: rgba(247, 248, 248, 0.6);
 }
-.item-2idW98[aria-checked=false].disabled-3tqE8r .radioBar-3w9XY- {
+.item-1TA5qI[aria-checked=false].disabled-3tqE8r .radioBar-1XgZqD {
     border: solid 1px var(--background-tertiary) !important;
     background: var(--deprecated-card-editable-bg) !important;
 }
-.item-2idW98[aria-checked=false] .radioBar-3w9XY- .text-sm-normal-3Zj3Iv {
+.item-1TA5qI[aria-checked=false] .radioBar-1XgZqD .text-sm-normal-AEQz4v {
     font-weight: 400;
     color: var(--text-muted);
 }
+.item-1TA5qI[aria-checked=true],
+.item-1TA5qI[aria-checked=true] .radioBar-1XgZqD .text-sm-normal-AEQz4v {
+    color: #fff !important;
+}
 
 /*On Off Toggle*/
-.container-2nx-BQ .input-2XRLou {
+.container-1QtPKm .input-125oad {
   opacity: 1;
   width: 0;
   background: #0000 !important;
 }
-.container-2nx-BQ .input-2XRLou:before, .container-2nx-BQ .input-2XRLou:after {
+.container-1QtPKm .input-125oad:before,
+.container-1QtPKm .input-125oad:after {
   transition: 0.1s;
   content: "";
   display: block;
   border-radius: 50px;
 }
-.container-2nx-BQ .input-2XRLou:before {
+.container-1QtPKm .input-125oad:before {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
   width: 42px;
   height: 24px;
@@ -8664,10 +8661,10 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
   margin-top: -3px;
   margin-left: -6px;
 }
-.container-2nx-BQ .input-2XRLou:hover:before {
+.container-1QtPKm .input-125oad:hover:before {
   background: #80848A;
 }
-.container-2nx-BQ .input-2XRLou:after {
+.container-1QtPKm .input-125oad:after {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -8676,38 +8673,38 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
   background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-.container-2nx-BQ .input-2XRLou:checked:before {
+.container-1QtPKm .input-125oad:checked:before {
   background: var(--brand-experiment);
 }
-.permissionsWrapper-34gbP6 .container-2nx-BQ .input-2XRLou:checked:before {
+.permissionsWrapper-34gbP6 .container-1QtPKm .input-125oad:checked:before {
   background: var(--button-positive-background);
 }
-.container-2nx-BQ .input-2XRLou:checked:hover:before {
+.container-1QtPKm .input-125oad:checked:hover:before {
   background: var(--brand-experiment-530);
 }
-.permissionsWrapper-34gbP6 .container-2nx-BQ .input-2XRLou:checked:hover:before {
+.permissionsWrapper-34gbP6 .container-1QtPKm .input-125oad:checked:hover:before {
   background: var(--button-positive-background-hover);
 }
-.container-2nx-BQ .input-2XRLou:checked:after {
+.container-1QtPKm .input-125oad:checked:after {
   transform: translate3d(18px, 0, 0);
 }
-.container-2nx-BQ .input-2XRLou:active:before {
+.container-1QtPKm .input-125oad:active:before {
   background: var(--blurple-active);
 }
-.permissionsWrapper-34gbP6 .container-2nx-BQ .input-2XRLou:active:before {
+.permissionsWrapper-34gbP6 .container-1QtPKm .input-125oad:active:before {
   background: var(--button-positive-background-active);
 }
-.container-2nx-BQ .input-2XRLou:active:after {
+.container-1QtPKm .input-125oad:active:after {
   width: 26px;
 }
-.container-2nx-BQ .input-2XRLou:checked:active:before {
+.container-1QtPKm .input-125oad:checked:active:before {
   background: #6a7dc1;
 }
-.container-2nx-BQ .input-2XRLou:checked:active:after {
+.container-1QtPKm .input-125oad:checked:active:after {
   left: -11px;
   width: 26px;
 }
-.container-2nx-BQ .input-2XRLou svg {
+.container-1QtPKm .input-125oad svg {
   display: none;
 }
 
@@ -8850,7 +8847,7 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 .background-3d_SjE .lookLink-15mFoz.colorLink-1Md3RZ {
     --text-link: var(--brand-experiment);
 }
-.field-21XZwa .h5-2RwDNl {
+.field-21XZwa .h5-2feg8J {
     color: var(--text-muted);
 }
 .field-21XZwa.text-md-normal-2rFCH3:nth-child(1) {
@@ -8889,207 +8886,207 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 
 /*Privacy & Safety*/
 /*Radio Bar*/
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="var"] .text-md-medium-2n7Vn5 {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="var"] .text-md-medium-2n7Vn5 {
     color: var(--radio-bar-accent-color);
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="yellow"] {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="yellow"] {
     --radio-bar-accent-color: var(--info-warning-foreground) !important;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] {
     --radio-bar-accent-color: var(--info-danger-foreground) !important;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5 {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5 {
     font-size: 0;
     line-height: unset;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v {
     font-size: 0;
     line-height: unset;
 }
-[id="privacy-&-safety-tab"] .item-2idW98[aria-checked="true"] .radioBar-3w9XY- .text-md-medium-2n7Vn5 {
+[id="privacy-&-safety-tab"] .item-1TA5qI[aria-checked="true"] .radioBar-1XgZqD .text-md-medium-2n7Vn5 {
     color: #fff;
 }
 /*Do not scan Text Replacement*/
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     font-size: 16px;
     line-height: 20px;
 }
-[id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     font-size: 14px;
     line-height: 18px;
 }
-:lang(DA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(DA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Jeg bor på kanten";
 }
-:lang(DA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(DA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Slå dette fra. Scan ikke noget. Gå direkte til den mørke side.";
 }
-:lang(DE) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(DE) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Ich lebe am Limit";
 }
-:lang(DE) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(DE) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
 }
-:lang(EN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(EN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "I live on the edge";
 }
-:lang(EN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(EN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Turn this off. Don't scan anything. Go straight to the dark side.";
 }
-:lang(ES) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(ES) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Vivo al límite";
 }
-:lang(ES) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(ES) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Desactiva esto. No compruebes nada. Ve directo al lado oscuro.";
 }
-:lang(FR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(FR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Je vis dangereusement";
 }
-:lang(FR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(FR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Désactiver cette option. Ne rien analyser. Allons tout droit vers le côté obscur.";
 }
-:lang(HR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(HR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Živim na rubu";
 }
-:lang(HR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(HR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Ugasi ovo. Nemoj ništa skenirati. Idi ravno na mračnu stranu.";
 }
-:lang(IT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(IT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Mi piace rischiare";
 }
-:lang(IT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(IT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Disattiva del tutto il controllo dei messaggi diretti. Da grandi rischi derivano grandi responsabilità.";
 }
-:lang(LT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(LT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Aš gyvenu ant krašto";
 }
-:lang(LT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(LT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Išjunk. Nieko neskenuok. Eik tiesiai į tamsiąją pusę.";
 }
-:lang(HU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(HU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Veszélyesen élek";
 }
-:lang(HU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(HU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Kapcsold ki. Ne ellenőrizz semmit. Állj át a sötét oldalra.";
 }
-:lang(NL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(NL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Ik woon aan de rand";
 }
-:lang(NL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(NL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Schakel dit uit. Scan niets. Ga direct naar de donkere kant.";
 }
-:lang(NO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(NO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Jeg bor på kanten";
 }
-:lang(NO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(NO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Slå av dette. Ikke skann noe. Gå rett til den mørke siden.";
 }
-:lang(PL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(PL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Żyję na krawędzi";
 }
-:lang(PL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(PL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Wyłącz to. Nic nie skanuj. Przejdź prosto na ciemną stronę mocy.";
 }
-:lang(PT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(PT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Eu sou vida louca";
 }
-:lang(PT) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(PT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Desative isso. Não analise nada. Vá direto para o lado negro da força.";
 }
-:lang(RO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(RO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Trăiesc la limită";
 }
-:lang(RO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(RO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Oprește-l. Nu scana nimic. Du-te direct de partea răului.";
 }
-:lang(FI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(FI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Olen reunalla eläjä";
 }
-:lang(FI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(FI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Kytke tämä pois. Älä tarkista mitään. Siirry pimeälle puolelle.";
 }
-:lang(SV) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(SV) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Jag gillar att leva farligt";
 }
-:lang(SV) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(SV) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Inaktivera detta. Skanna ingenting. Gå över till den mörka sidan.";
 }
-:lang(VI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(VI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Tôi thuộc kiểu ưa phiêu lưu";
 }
-:lang(VI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(VI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Tắt tính năng này. Không quét gì cả. Đi thẳng đến mặt tối.";
 }
-:lang(TR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(TR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Tehlike içinde yaşıyorum";
 }
-:lang(TR) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(TR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Bunu kapat. Hiçbir şeyi tarama. Direkt karanlık tarafa geç.";
 }
-:lang(CS) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(CS) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Bydlím na okraji";
 }
-:lang(CS) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(CS) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Vypněte to. Nic neskenujte. Jděte přímo na temnou stranu.";
 }
-:lang(EL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(EL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Ζω στα άκρα";
 }
-:lang(EL) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(EL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Απενεργοποίησέ το. Μην ελέγχεις τίποτα. Πήγαινε κατευθείαν στη σκοτεινή πλευρά.";
 }
-:lang(BG) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(BG) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Живея на ръба";
 }
-:lang(BG) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(BG) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Изключете това. Не сканирайте нищо. Отидете направо на тъмната страна.";
 }
-:lang(RU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(RU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Я рисковый человек";
 }
-:lang(RU) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(RU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Выключите это. Не надо ничего проверять. Отправляюсь на темную сторону.";
 }
-:lang(UK) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(UK) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Я ризикова людина";
 }
-:lang(UK) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(UK) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Вимкніть це. Не треба нічого перевіряти. Відправляюсь на темну сторону.";
 }
-:lang(HI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(HI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "मैं किनारे पर रहता हूँ";
 }
-:lang(HI) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(HI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "इसे बंद कर दें। कुछ भी स्कैन न करें। सीधे डार्क साइड पर जाएं।";
 }
-:lang(TH) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(TH) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "ฉันชอบความท้าทาย";
 }
-:lang(TH) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(TH) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "ไม่ต้องคัดกรองข้อความใดๆทั้งสิ้น มุ่งหน้าสู่ด้านมืด!";
 }
-:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "我活在社会边缘";
 }
-:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "关闭此功能。不扫描任何东西。直走到黑暗的一面。";
 }
-:lang(JA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(JA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "そんなの平気さ";
 }
-:lang(JA) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(JA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "機能をオフにします。一切スキャンしません。闇に堕ちるがいい。";
 }
-:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "我活在社會邊緣";
 }
-:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "關閉此功能。 不掃描任何東西。 直到黑暗的那一邊。";
 }
-:lang(KO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-md-medium-2n7Vn5:before {
+:lang(KO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "나는 가장자리에 산다";
 }
-:lang(KO) [id="privacy-&-safety-tab"] .radioBar-3w9XY-[style*="red"] .text-sm-normal-AEQz4v:before {
+:lang(KO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "이 기능을 끕니다. 아무것도 스캔하지 마십시오. 어두운 면으로 바로 가십시오.";
 }
 /*Request Data Button*/
@@ -9923,10 +9920,10 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 
 /*Language Tab*/
 /*Radio Bar*/
-#language-tab .item-2idW98 {
+#language-tab .item-1TA5qI {
     margin: 0;
 }
-#language-tab .item-2idW98 .radioBar-3w9XY- {
+#language-tab .item-1TA5qI .radioBar-3w9XY- {
     background: none;
     border: none;
     border-radius: 0;
@@ -9934,35 +9931,35 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     padding: 16px 10px !important;
     grid-gap: 10px;
 }
-#language-tab .item-2idW98 .radioBar-3w9XY- .option-1YIfI9 {
+#language-tab .item-1TA5qI .radioBar-3w9XY- .option-1YIfI9 {
     font-weight: 400;
 }
-#language-tab .item-2idW98:first-of-type .radioBar-3w9XY- {
+#language-tab .item-1TA5qI:first-of-type .radioBar-3w9XY- {
     border-top: none;
 }
-#language-tab .item-2idW98 div > svg {
+#language-tab .item-1TA5qI div > svg {
     background-color: var(--status-green-660);
     border-radius: 50px;
     margin-left: 0px;
 }
-#language-tab .item-2idW98 div > svg > path {
+#language-tab .item-1TA5qI div > svg > path {
     fill: none;
     stroke: #fff;
 }
-#language-tab .item-2idW98[aria-checked=false] svg {
+#language-tab .item-1TA5qI[aria-checked=false] svg {
     background: none;
     border: solid 1px var(--background-accent);
     margin-left: -45px !important;
     opacity: 0 !important;
     transition: 0.2s;
 }
-#language-tab .item-2idW98[aria-checked=false] svg path {
+#language-tab .item-1TA5qI[aria-checked=false] svg path {
     display: none;
 }
-#language-tab .item-2idW98[aria-checked=true] {
+#language-tab .item-1TA5qI[aria-checked=true] {
     color: var(--interactive-active) !important;
 }
-#language-tab .item-2idW98:hover svg {
+#language-tab .item-1TA5qI:hover svg {
     margin-left: 0 !important;
     opacity: 1 !important;
 }
@@ -10871,12 +10868,12 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --deprecated-text-input-prefix: #b9bbbe;
 }
 
-.radioBar-3w9XY-[style="--radio-bar-accent-color:var(--status-green-600); padding: 10px;"] {
+.radioBar-1XgZqD[style="--radio-bar-accent-color:var(--status-green-600); padding: 10px;"] {
     --radio-bar-accent-color: #43b581 !important;
 }
-.radioBar-3w9XY-[style="--radio-bar-accent-color:var(--status-yellow-560); padding: 10px;"] {
+.radioBar-1XgZqD[style="--radio-bar-accent-color:var(--status-yellow-560); padding: 10px;"] {
     --info-warning-foreground: #faa61a !important;
 }
-.radioBar-3w9XY-[style="--radio-bar-accent-color:var(--status-red-500); padding: 10px;"] {
+.radioBar-1XgZqD[style="--radio-bar-accent-color:var(--status-red-500); padding: 10px;"] {
     --radio-bar-accent-color: #f04747 !important;
 }
