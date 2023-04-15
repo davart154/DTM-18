@@ -12,6 +12,7 @@ DTM-18 keeps the core experience of Discord intact by not removing any features.
 - Old profile layout designed with both support for Profile Skins and Playing Statuses
 
 ##Installing
+
 ###BetterDiscord
 - Regular Download
   - Download the file `dtm-18.theme.css` and move it into the `Themes` folder on BD.
