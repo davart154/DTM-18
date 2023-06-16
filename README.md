@@ -19,6 +19,9 @@ DTM-18 keeps the core experience of Discord intact by not removing any features.
 - ThemeRepo Download
   - Download DTM-18 via. the `ThemeRepo` plugin, which will move it to the `Themes` folder on its own.
 
+### Vencord
+- Just copy and paste this link `https://raw.githubusercontent.com/davart154/DTM-18/main/dtm-18.theme.css` into the "Themes" option in Vencord's settings.
+
 ## Coming soon:
 - Redesigned Status Layout
 - finish desc.
