@@ -22,6 +22,10 @@ DTM-18 keeps the core experience of Discord intact by not removing any features.
 ### Vencord
 - Just copy and paste this link `https://raw.githubusercontent.com/davart154/DTM-18/main/dtm-18.theme.css` into the "Themes" option in Vencord's settings.
 
+### Replugged
+Regular
+- Download the file dtm-18.theme.css and move it into the Themes folder wich is is located in `C:\Users\USERNAME\AppData\Roaming\replugged\themes`
+
 ## Coming soon:
 - Redesigned Status Layout
 - finish desc.
