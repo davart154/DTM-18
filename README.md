@@ -9,6 +9,7 @@ DTM-18 keeps the core experience of Discord intact by not removing any features.
   - AMOLED Mode Support
   - Nitro Color Themes Support
 - Old profile layout designed with both support for Profile Skins and Playing Statuses
+- Features toggleable colorblind status icons
 
 ## Installing
 
@@ -27,6 +28,4 @@ Regular
 - Download the file dtm-18.theme.css and move it into the Themes folder wich is is located in `C:\Users\USERNAME\AppData\Roaming\replugged\themes`
 
 ## Coming soon:
-- Redesigned Status Layout
-- finish desc.
-- idk maybe i get it out of beta lol
+- Actually proper light mode support
