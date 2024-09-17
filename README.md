@@ -2,17 +2,12 @@
 Aims to recreate the 2018 Discord style as best as it can.
 
 ## A mix of old and new
-DTM-18 keeps the core experience of Discord intact by not removing any features.
-- Support for all Discord themes.
-  - Dark Mode Support
-  - Light Mode Support
-  - AMOLED Mode Support
-  - Nitro Color Themes Support
-- Old profile layout designed with both support for Profile Skins and Playing Statuses
-- Features toggleable colorblind status icons
+- Uses Whitney as its font.
+- Old profile layout designed with both support for Profile Skins and Playing Statuses.
+- Features toggleable colorblind status icons.
+- DTM-18 keeps the core experience of Discord intact by not removing any features.
 
 ## Installing
-
 ### BetterDiscord
 - Regular Download
   - Download the file `dtm-18.theme.css` and move it into the `Themes` folder on BD.
