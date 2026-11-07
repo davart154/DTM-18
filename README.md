@@ -1,5 +1,5 @@
 # DTM-18
-Aims to recreate the 2018 Discord style as best as it can.
+Attempted to recreate the 2018 Discord style as best as it can.
 
 ## A mix of old and new
 - Uses Whitney as its font.
